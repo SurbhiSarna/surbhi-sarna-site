@@ -10,6 +10,7 @@ const sliderConfiguration = {
   perView: 1,
   startAt: 0,
   type: "slider",
+  swipeThreshold: 80,
 };
 
 const TestimonialsSlider = () => {
