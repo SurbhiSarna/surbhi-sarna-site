@@ -7,19 +7,19 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const solutions = [
   {
     name: "Services",
-    href: "#",
+    href: "/services",
   },
   {
     name: "Storytelling",
-    href: "#",
+    href: "/storytelling",
   },
   {
     name: "Podcast",
-    href: "#",
+    href: "/podcast",
   },
   {
     name: "Meditation Circle",
-    href: "#",
+    href: "/meditationcircle",
   },
 ];
 
@@ -41,25 +41,25 @@ export default function Header() {
           </div>
           <div className="hidden space-x-10 md:flex">
             <a
-              href="#"
+              href="/services"
               className="font-fraunces text-base font-bold text-violet-600 border-transparent border-b-2 hover:text-violet-800 hover:border-violet-800"
             >
               Services
             </a>
             <a
-              href="#"
+              href="/storytelling"
               className="font-fraunces text-base font-bold text-violet-600 border-transparent border-b-2 hover:text-violet-800 hover:border-violet-800"
             >
               Storytelling
             </a>
             <a
-              href="#"
+              href="/podcast"
               className="font-fraunces text-base font-bold text-violet-600 border-transparent border-b-2 hover:text-violet-800 hover:border-violet-800"
             >
               Podcast
             </a>
             <a
-              href="#"
+              href="meditationcircle"
               className="font-fraunces text-base font-bold text-violet-600 border-transparent border-b-2 hover:text-violet-800 hover:border-violet-800"
             >
               Meditation Circle
