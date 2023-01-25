@@ -21,8 +21,8 @@ export default function Footer() {
                     <a href="/about" className="mt-1.5 text-sm font-semibold text-violet-700 uppercase border-b-2 border-transparent hover:text-violet-900 hover:border-violet-900">
                         <h2>About</h2>
                     </a>
-                    <a href="/connect" className="mt-1.5 text-sm font-semibold text-violet-700 uppercase border-b-2 border-transparent hover:text-violet-900 hover:border-violet-900">
-                        <h2>Connect</h2>
+                    <a href="/contact" className="mt-1.5 text-sm font-semibold text-violet-700 uppercase border-b-2 border-transparent hover:text-violet-900 hover:border-violet-900">
+                        <h2>Contact</h2>
                     </a>
                 </div>
             </div>
