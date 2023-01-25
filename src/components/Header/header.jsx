@@ -33,7 +33,7 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
+            <a href="/">
               <p className="font-fraunces font-bold text-lg text-violet-600 md:text-3xl">
                 Surbhi Sarna
               </p>
@@ -123,14 +123,14 @@ export default function Header() {
             <div className="space-y-6 py-6 px-5">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                 <a
-                  href="#"
+                  href="/about"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   About
                 </a>
 
                 <a
-                  href="#"
+                  href="/contact"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Contact
