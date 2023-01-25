@@ -1,0 +1,25 @@
+.glide {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.glide__track {
+    flex: 1;
+}
+
+.glide__slide {
+    text-align: center;
+}
+
+.glide__slide[className*="active"] {
+    background-color: rgb(254 252 232 / 10%);
+}
+
+.glide__arrows {
+    padding: 5px;
+}
+
+.glide__arrow {
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+}
