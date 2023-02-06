@@ -7,7 +7,6 @@ export default function Home(){
         <div>
             <Masthead />
             <TestimonialsSlider element="carousel-className-to-inject" options={{ perView: 3 }} />
-            <h1>Home</h1>
         </div>
     )
 }
