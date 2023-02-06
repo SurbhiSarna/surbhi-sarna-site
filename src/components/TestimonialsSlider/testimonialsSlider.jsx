@@ -18,7 +18,7 @@ const TestimonialsSlider = () => {
   const slider = new Glide(".glide", sliderConfiguration);
 
   useEffect(() => {
-    return () => slider.mount();
+    slider.mount();
   }, [slider]);
 
   const testimonialQuotes = [
