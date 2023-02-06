@@ -14,7 +14,7 @@ const Masthead = () => {
                 backgroundSize: "cover",
             }}>
             <div className="flex flex-col justify-center items-center h-full">
-                <h1 className="text-2xl text-white font-bold px-5 md:px-10 md:text-4xl">
+                <h1 className="text-2xl text-white font-bold px-5 md:px-10 md:text-4xl max-w-7xl">
                     <span><img className="w-4 md:w-8 my-4" src={leftquote} alt="Left Quote Sign" /></span>
                         If you have given up hope of ever being happy, cheer up.<br/>
                         Never lose hope. Your soul, being a reflection of the ever joyous Spirit, is in essence, happiness itself.
