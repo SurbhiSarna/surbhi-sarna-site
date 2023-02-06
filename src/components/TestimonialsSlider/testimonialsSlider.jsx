@@ -12,6 +12,8 @@ const sliderConfiguration = {
   startAt: 0,
   type: "slider",
   swipeThreshold: 80,
+  autoplay: 5000,
+  hoverpause: true,
 };
 
 const TestimonialsSlider = () => {
