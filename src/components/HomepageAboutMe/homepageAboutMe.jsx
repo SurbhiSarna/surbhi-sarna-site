@@ -99,7 +99,7 @@ const HomepageAboutMe = () => {
             </p>
           </div>
           <div className="flex justify-center items-center">
-            <p className="p-12 md:p-24 text-xl md:text-2xl text-purple-700 font-semibold leading-8">
+            <p className="p-12 md:p-24 text-xl md:text-2xl text-emerald-700 font-semibold leading-8">
               My work as a healer is to shine the light on your journey and
               empower you to claim back your power. The unfolding miracles of
               change, hope and transformation that I see in my clients are
