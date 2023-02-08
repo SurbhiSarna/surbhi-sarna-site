@@ -32,7 +32,7 @@ const HomepageAboutMe = () => {
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-2xl md:text-4xl font-bold leading-8 tracking-tight mb-5 text-indigo-700">
+          <h2 className="my-10 text-2xl md:text-4xl font-bold leading-8 tracking-tight text-indigo-700">
             Who Am I
           </h2>
           <img
@@ -57,13 +57,12 @@ const HomepageAboutMe = () => {
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <dt className="text-base font-semibold leading-7 text-slate-900">
-                  <div className="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-white">
+                  <div className="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-none">
                     <feature.icon
                       className="h-6 md:h-8 md:w-8 text-purple-700 fill-purple-700"
                       aria-hidden="true"
                     />
                   </div>
-                  {feature.name}
                 </dt>
                 <dd className="md:text-xl text-base leading-7 text-gray-600">
                   {feature.description}
