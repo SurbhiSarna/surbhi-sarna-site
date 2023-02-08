@@ -47,7 +47,7 @@ class ContactForm extends React.Component {
               </label>
               <input
                 type="email"
-                className="bg-white text-emerald-600 autofill:!bg-white autofill:text-emerald-600 focus:outline-none focus:shadow-outline border border-emerald-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                className="bg-white text-emerald-700 autofill:shadow-none autofill:bg-white autofill:text-emerald-600 focus:outline-none focus:shadow-outline border border-emerald-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
                 name="EMAIL"
                 id="MERGE0"
                 value={this.state.emailValue}
@@ -65,7 +65,7 @@ class ContactForm extends React.Component {
               </label>
               <input
                 type="text"
-                className="bg-white focus:bg-white focus:outline-none focus:shadow-outline border border-emerald-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                className="bg-white text-emerald-700 focus:bg-white focus:outline-none focus:shadow-outline border border-emerald-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
                 name="FNAME"
                 id="MERGE1"
                 value={this.state.fNameValue}
@@ -81,7 +81,7 @@ class ContactForm extends React.Component {
               </label>
               <input
                 type="text"
-                className="bg-white focus:outline-none focus:shadow-outline border border-emerald-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                className="bg-white text-emerald-700 focus:outline-none focus:shadow-outline border border-emerald-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
                 name="LNAME"
                 id="MERGE2"
                 value={this.state.lNameValue}
@@ -97,12 +97,12 @@ class ContactForm extends React.Component {
               </label>
               <textarea
                 type="textarea"
-                className="bg-white focus:outline-none focus:shadow-outline border border-emerald-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                className="bg-white text-emerald-700 focus:outline-none focus:shadow-outline border border-emerald-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
                 name="DESC"
                 id="MERGE3"
-                value={this.state.lNameValue}
+                value={this.state.descValue}
                 onChange={(e) => {
-                  this.setState({ lNameValue: e.target.value });
+                  this.setState({ descValue: e.target.value });
                 }}
               />
               <input

@@ -6,14 +6,14 @@ export default function Footer() {
     return (
         <footer className="p-4 sm:p-6 bg-yellow-50">
             <div>
-                <a href="#" className="mx-auto md:hidden">
+                <a href="/contact" className="mx-auto md:hidden">
                     <span className="self-center text-3xl font-semibold whitespace-nowrap text-violet-700 mb-7">Let's Chat</span>
                 </a>
                 <hr className="my-4 border-gray-800 sm:mx-auto md:hidden" />
             </div>
             <div className="max-w-7xl mx-auto flex justify-center md:justify-between">
                 <div>
-                    <a href="#" className="mx-auto hidden md:block">
+                    <a href="/contact" className="mx-auto hidden md:block">
                         <span className="self-center text-3xl font-semibold whitespace-nowrap text-violet-700">Let's Chat</span>
                     </a>
                 </div>

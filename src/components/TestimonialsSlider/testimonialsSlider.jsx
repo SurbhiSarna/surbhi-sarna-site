@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import Glide from "@glidejs/glide";
 import "@glidejs/glide/dist/css/glide.core.css";
 import "./styles.css";
-import testimonialBg from "../../assets/images/testimonial-bg.png";
+import testimonialBg from "../../assets/images/testimonial-bg-2.png";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/outline";
 
 const sliderConfiguration = {
@@ -38,7 +38,7 @@ const TestimonialsSlider = () => {
       author: "MS, Mumbai"
     },
     {
-      quote: "I had a swollen foot and actue pain. I was under medication for around 25 days but recovering very slowly. Healing helped me to recover very fast and the pain has almost vanished. Thanks.",
+      quote: "I had a swollen foot and acute pain. I was under medication for around 25 days but recovering very slowly. Healing helped me to recover very fast and the pain has almost vanished. Thanks.",
       author: "SM, Bhubaneswar"
     },
     {
@@ -51,10 +51,10 @@ const TestimonialsSlider = () => {
   return (
     <>
       {" "}
-      <div className="bg-white py-8 md:py-10">
+      <div className="bg-violet-900 py-8 md:py-10">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center justify-center">
-            <h2 className="my-5 text-2xl md:text-4xl font-bold text-emerald-700">
+            <h2 className="my-5 text-2xl md:text-4xl font-bold text-white">
               What People Say
             </h2>
           </div>
@@ -72,8 +72,8 @@ const TestimonialsSlider = () => {
                               backgroundRepeat: 'no-repeat',
                               backgroundSize: 'cover',
                           }}>
-                          <p className="p-4 font-bold text-slate-700 text-xl md:text-3xl">{quote.quote}</p>
-                          <p className="p-2 font-semibold text-slate-500 text-lg md:text-xl">- {quote.author}</p>
+                          <p className="p-4 font-bold text-emerald-400 text-xl md:text-3xl">{quote.quote}</p>
+                          <p className="p-2 font-semibold text-slate-100 text-lg md:text-xl">- {quote.author}</p>
                         </li>
                       </div>
                     )
