@@ -119,7 +119,7 @@ class ContactForm extends React.Component {
           </h2>
           <div className="flex flex-col md:flex-row justify-center items-center flex-wrap mx-auto pb-5">
             <p className="text-xl text-emerald-700 text-left p-4 border-solid border-white border-2 bg-white w-64 h-28 m-4 rounded-xl">
-              I'm situated in
+              I'm based in
               <br />
               <span className="font-medium">
                 Bhubaneswar, Odisha <br />
