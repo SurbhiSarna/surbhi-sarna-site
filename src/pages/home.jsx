@@ -10,7 +10,7 @@ export default function Home(){
         <div>
             <Masthead />
             <HomepageAboutMe />
-            <SplitImageText props={props} />
+            <SplitImageText />
             <TestimonialsSlider />
             <HomepageMoreInfo />
         </div>
