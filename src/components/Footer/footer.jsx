@@ -4,31 +4,31 @@ import React from "react";
 
 export default function Footer() {
     return (
-        <footer className="p-4 sm:p-6 bg-yellow-50">
+        <footer className="p-4 sm:p-6 bg-white">
             <div>
                 <a href="/contact" className="mx-auto md:hidden">
-                    <span className="self-center text-3xl font-semibold whitespace-nowrap text-violet-700 mb-7">Let's Chat</span>
+                    <span className="self-center text-3xl font-semibold whitespace-nowrap text-slate-700 mb-7">Let's Chat</span>
                 </a>
                 <hr className="my-4 border-gray-800 sm:mx-auto md:hidden" />
             </div>
             <div className="max-w-7xl mx-auto flex justify-center md:justify-between">
                 <div>
                     <a href="/contact" className="mx-auto hidden md:block">
-                        <span className="self-center text-3xl font-semibold whitespace-nowrap text-violet-700">Let's Chat</span>
+                        <span className="self-center text-3xl font-semibold whitespace-nowrap text-slate-700">Let's Chat</span>
                     </a>
                 </div>
                 <div className="grid gap-8 sm:gap-10 grid-cols-2">
-                    <a href="/about" className="mt-1.5 text-sm font-semibold text-violet-700 uppercase border-b-2 border-transparent hover:text-violet-900 hover:border-violet-900">
+                    <a href="/about" className="mt-1.5 text-sm font-semibold text-slate-700 uppercase border-b-2 border-transparent hover:text-slate-900 hover:border-slate-900">
                         <h2>About</h2>
                     </a>
-                    <a href="/contact" className="mt-1.5 text-sm font-semibold text-violet-700 uppercase border-b-2 border-transparent hover:text-violet-900 hover:border-violet-900">
+                    <a href="/contact" className="mt-1.5 text-sm font-semibold text-slate-700 uppercase border-b-2 border-transparent hover:text-slate-900 hover:border-slate-900">
                         <h2>Contact</h2>
                     </a>
                 </div>
             </div>
             <hr className="my-4 border-gray-800 sm:mx-auto" />
             <div className="max-w-7xl mx-auto sm:flex sm:items-center sm:justify-between">
-                <span className="text-sm text-gray-600 sm:text-center">© 2023 <a href="#" className="hover:underline hover:text-violet-900 text-violet-700">Surbhi Sarna™</a>. All Rights Reserved.
+                <span className="text-sm text-gray-600 sm:text-center">© 2023 <a href="#" className="hover:underline hover:text-slate-900 text-slate-700">Surbhi Sarna™</a>. All Rights Reserved.
                 </span>
                 <div className="flex mt-4 space-x-6 justify-center sm:mt-0">
                     <a href="#" className="text-gray-600 hover:text-gray-900">

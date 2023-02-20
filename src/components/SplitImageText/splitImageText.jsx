@@ -9,7 +9,7 @@ const SplitImageText = (props) => {
     console.log(props)
 
     return (
-        <div className="bg-emerald-700 grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2">
+        <div className="bg-white grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2">
         <div
           style={{
             backgroundImage: `url(${healingImage})`,
@@ -24,8 +24,9 @@ const SplitImageText = (props) => {
             <span>
               <img className="w-4" src={leftquote} alt="Left Quote Sign" />
             </span>
-            After nourishment, shelter and companionship, stories are the
-            thing we need most in the world.
+            “You have the power to heal your life, and you need to know that. We think so often that
+            we are helpless, but we’re not. We always have the power of our minds. Claim and
+            consciously use your power.”
             <span className="flex justify-end">
               <img
                 className="w-4 right-0"
@@ -33,11 +34,11 @@ const SplitImageText = (props) => {
                 alt="Left Quote Sign"
               />
             </span>
-            <br />- Philip Pullman
+            <br />- Louise Hay
           </p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <p className="p-5 md:p-24 text-xl md:text-2xl text-white font-semibold leading-8">
+          <p className="p-5 md:p-24 text-xl md:text-2xl text-white font-semibold leading-8 text-slate-700">
             My work as a healer is to shine the light on your journey and
             empower you to claim back your power. The unfolding miracles of
             change, hope and transformation that I see in my clients are
@@ -45,7 +46,7 @@ const SplitImageText = (props) => {
           </p>
           <Link to="/about">
               <button 
-                  className="focus:outline-none focus:shadow-outline bg-white text-violet-700 font-bold py-2 px-16 rounded-full cursor-pointer hover:text-white hover:bg-violet-700"
+                  className="focus:outline-none focus:shadow-outline outline bg-white text-slate-700 font-bold py-2 px-16 rounded-full cursor-pointer hover:text-white hover:bg-slate-700"
               >
                   Learn More
               </button>

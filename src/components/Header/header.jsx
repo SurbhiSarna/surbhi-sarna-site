@@ -29,41 +29,26 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Popover className="relative bg-yellow-50">
+    <Popover className="relative bg-white">
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="/">
-              <p className="font-fraunces font-bold text-lg text-violet-600 md:text-3xl">
+              <p className="font-fraunces font-bold text-lg text-slate-700 md:text-3xl">
                 Surbhi Sarna
               </p>
             </a>
           </div>
           <div className="hidden space-x-10 md:flex">
-            <a
-              href="/services"
-              className="font-fraunces text-base font-bold text-violet-600 border-transparent border-b-2 hover:text-violet-800 hover:border-violet-800"
-            >
-              Services
-            </a>
-            <a
-              href="/storytelling"
-              className="font-fraunces text-base font-bold text-violet-600 border-transparent border-b-2 hover:text-violet-800 hover:border-violet-800"
-            >
-              Storytelling
-            </a>
-            <a
-              href="/podcast"
-              className="font-fraunces text-base font-bold text-violet-600 border-transparent border-b-2 hover:text-violet-800 hover:border-violet-800"
-            >
-              Podcast
-            </a>
-            <a
-              href="meditationcircle"
-              className="font-fraunces text-base font-bold text-violet-600 border-transparent border-b-2 hover:text-violet-800 hover:border-violet-800"
-            >
-              Meditation Circle
-            </a>
+            {solutions.map((item) => (
+              <a
+                key={item.name}
+                href={item.href}
+                className="font-fraunces text-base font-bold text-slate-700 border-transparent border-b-2 hover:text-slate-900 hover:border-slate-800"
+              >
+                {item.name}
+              </a>
+            ))}
           </div>
           <div className="-my-2 -mr-2 md:hidden">
             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-violet-500">

@@ -51,7 +51,7 @@ const TestimonialsSlider = () => {
   return (
     <>
       {" "}
-      <div className="bg-violet-900 py-8 md:py-10">
+      <div className="bg-slate-900 py-8 md:py-10">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center justify-center">
             <h2 className="my-5 text-2xl md:text-4xl font-bold text-white">
@@ -72,8 +72,8 @@ const TestimonialsSlider = () => {
                               backgroundRepeat: 'no-repeat',
                               backgroundSize: 'cover',
                           }}>
-                          <p className="p-4 font-bold text-emerald-400 text-xl md:text-3xl">{quote.quote}</p>
-                          <p className="p-2 font-semibold text-slate-100 text-lg md:text-xl">- {quote.author}</p>
+                          <p className="p-4 font-bold text-slate-50 text-xl md:text-3xl">{quote.quote}</p>
+                          <p className="p-2 font-semibold text-slate-200 text-lg md:text-xl">- {quote.author}</p>
                         </li>
                       </div>
                     )
@@ -82,12 +82,12 @@ const TestimonialsSlider = () => {
           </div>
           <div className="my-5 flex flex-row items-center justify-center pt-5">
             <div className="glide__arrows" data-glide-el="controls">
-              <button className="mx-4 md:mx-16 glide__arrow glide__arrow--left focus:outline-none focus:shadow-outline bg-white text-emerald-600 font-bold py-2 px-6 rounded-full hover:text-white hover:bg-emerald-600 border-emerald-700" data-glide-dir="<">
+              <button className="mx-4 md:mx-16 glide__arrow glide__arrow--left focus:outline-none focus:shadow-outline bg-white text-slate-600 font-bold py-2 px-6 rounded-full hover:text-white hover:bg-slate-600 border-slate-700" data-glide-dir="<">
                 <ArrowLeftIcon className="h-6 w-6" />
               </button>
             </div>
             <div className="glide__arrows" data-glide-el="controls">
-              <button className="mx-4 md:mx-16 glide__arrow glide__arrow--right focus:outline-none focus:shadow-outline bg-white text-emerald-600 font-bold py-2 px-6 rounded-full mr-4 hover:text-white hover:bg-emerald-600 border-emerald-700" data-glide-dir=">">
+              <button className="mx-4 md:mx-16 glide__arrow glide__arrow--right focus:outline-none focus:shadow-outline bg-white text-slate-600 font-bold py-2 px-6 rounded-full mr-4 hover:text-white hover:bg-slate-600 border-slate-700" data-glide-dir=">">
                 <ArrowRightIcon className="h-6 w-6" />
               </button>
             </div>

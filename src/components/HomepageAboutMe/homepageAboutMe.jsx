@@ -30,18 +30,15 @@ const HomepageAboutMe = () => {
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="my-10 text-2xl md:text-4xl font-bold leading-8 tracking-tight text-indigo-700">
-            Who Am I
+          <h2 className="my-10 text-2xl md:text-4xl font-bold leading-8 tracking-tight text-slate-700">
+            I am Surbhi Sarna, a counselling psychologist, healer and
+            storyteller.
           </h2>
           <img
             src={surbhiImage}
             alt="Surbhi Sarna"
             className="rounded-full w-1/3 mx-auto"
           />
-          <p className="mt-8 text-2xl font-bold tracking-tight text-slate-700 sm:text-4xl">
-            I am Surbhi Sarna, a counselling psychologist, healer and
-            storyteller.
-          </p>
           <p className="mt-6 text-xl md:text-2xl leading-8 text-slate-600">
             The most daunting and yet the most precious journey is into
             someone’s heart and mind. As a healer I feel immensely privileged to
@@ -57,7 +54,7 @@ const HomepageAboutMe = () => {
                 <dt className="text-base font-semibold leading-7 text-slate-900">
                   <div className="md:absolute md:top-0 md:left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-none mx-auto">
                     <feature.icon
-                      className="h-6 md:h-8 md:w-8 text-purple-700 fill-purple-700"
+                      className="h-6 md:h-8 md:w-8 text-slate-700 fill-slate-700"
                       aria-hidden="true"
                     />
                   </div>
