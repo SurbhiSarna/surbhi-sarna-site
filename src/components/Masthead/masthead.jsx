@@ -8,7 +8,7 @@ import rightquote from "../../assets/svg/rquote.svg";
 const Masthead = () => {
     return (
         <div 
-            className="-mt-20 h-screen bg-center bg-no-repeat bg-cover" 
+            className="-mt-16 h-screen bg-center bg-no-repeat bg-cover" 
             style={{ 
                 backgroundImage: `url(${MastheadImage})`,
                 backgroundSize: "cover",
