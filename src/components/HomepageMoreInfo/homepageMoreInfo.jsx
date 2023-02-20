@@ -25,7 +25,7 @@ const HomepageMoreInfo = () => {
               </ul>
           </div>
           <Link to="/contact">
-              <button className="focus:outline-none focus:shadow-outline border-slate-700 bg-slate-700 text-xl text-white font-bold py-4 px- rounded-full cursor-pointer hover:text-white hover:bg-slate-900 mb-12">
+              <button className="focus:outline-none focus:shadow-outline border-emerald-600 bg-emerald-600 text-xl text-white font-bold py-4 rounded-full cursor-pointer hover:text-white hover:bg-emerald-800 mb-12">
                   Work with Me
               </button>
           </Link>

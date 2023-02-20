@@ -46,7 +46,7 @@ const SplitImageText = (props) => {
           </p>
           <Link to="/about">
               <button 
-                  className="focus:outline-none focus:shadow-outline bg-white text-slate-600 font-bold py-2 px-12 rounded-full hover:text-white hover:bg-slate-600 border-slate-700"
+                  className="focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold py-2 px-12 rounded-full hover:text-white hover:bg-emerald-800 border-emerald-600"
               >
                   Learn More
               </button>

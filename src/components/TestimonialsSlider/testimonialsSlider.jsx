@@ -82,12 +82,12 @@ const TestimonialsSlider = () => {
           </div>
           <div className="my-5 flex flex-row items-center justify-center pt-5">
             <div className="glide__arrows" data-glide-el="controls">
-              <button className="mx-4 md:mx-16 glide__arrow glide__arrow--left focus:outline-none focus:shadow-outline bg-white text-slate-600 font-bold py-2 px-6 rounded-full hover:text-white hover:bg-slate-600 border-slate-700" data-glide-dir="<">
+              <button className="mx-4 md:mx-16 glide__arrow glide__arrow--left focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold py-2 px-6 rounded-full hover:text-emerald-600 hover:bg-white border-emerald-600" data-glide-dir="<">
                 <ArrowLeftIcon className="h-6 w-6" />
               </button>
             </div>
             <div className="glide__arrows" data-glide-el="controls">
-              <button className="mx-4 md:mx-16 glide__arrow glide__arrow--right focus:outline-none focus:shadow-outline bg-white text-slate-600 font-bold py-2 px-6 rounded-full mr-4 hover:text-white hover:bg-slate-600 border-slate-700" data-glide-dir=">">
+              <button className="mx-4 md:mx-16 glide__arrow glide__arrow--right focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold py-2 px-6 rounded-full mr-4 hover:text-emerald-600 hover:bg-white border-emerald-600" data-glide-dir=">">
                 <ArrowRightIcon className="h-6 w-6" />
               </button>
             </div>
