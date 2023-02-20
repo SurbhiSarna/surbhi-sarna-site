@@ -9,7 +9,7 @@ const SplitImageText = (props) => {
     console.log(props)
 
     return (
-        <div className="bg-green-100 grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2">
+        <div className="bg-white grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2">
         <div
           style={{
             backgroundImage: `url(${healingImage})`,
