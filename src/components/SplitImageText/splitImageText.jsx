@@ -20,12 +20,12 @@ const SplitImageText = (props) => {
           }}
           className="flex justify-center items-center h-5/6"
         >
-          <p className="mx-auto text-white text-lg font-bold px-20">
+          <p className="mx-auto text-white text-lg md:text-xl font-bold px-20">
             <span>
               <img className="w-4" src={leftquote} alt="Left Quote Sign" />
             </span>
-            “You have the power to heal your life, and you need to know that. We think so often that
-            we are helpless, but we’re not. We always have the power of our minds. Claim and
+            “You have the power to heal your life, and you need to know that. <br/> We think so often that
+            we are helpless, but we’re not. We always have the power of our minds. <br/>Claim and
             consciously use your power.”
             <span className="flex justify-end">
               <img
