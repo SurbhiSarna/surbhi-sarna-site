@@ -108,7 +108,7 @@ class ContactForm extends React.Component {
               />
               <input
                 type="submit"
-                value="Subscribe"
+                value="Submit"
                 name="subscribe"
                 id="mc-embedded-subscribe"
                 className="bg-emerald-600 text-white font-bold py-4 px-6 rounded-full my-10 hover:text-emerald-700 hover:bg-white border hover:border-emerald-800"

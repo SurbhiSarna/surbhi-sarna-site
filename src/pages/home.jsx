@@ -6,13 +6,6 @@ import SplitImageText from '../components/SplitImageText/splitImageText';
 import HomepageMoreInfo from '../components/HomepageMoreInfo/homepageMoreInfo';
 
 export default function Home(){
-
-    const props = {
-        title: "My Title",
-        subtitle: "My Subtitle",
-        description: "My Description"
-    }
-
     return (
         <div>
             <Masthead />

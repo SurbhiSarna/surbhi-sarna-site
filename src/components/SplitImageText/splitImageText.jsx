@@ -4,10 +4,7 @@ import leftquote from '../../assets/svg/lquote.svg';
 import rightquote from '../../assets/svg/rquote.svg';
 import { Link } from 'react-router-dom';
 
-const SplitImageText = (props) => {
-
-    console.log(props)
-
+const SplitImageText = () => {
     return (
         <div className="bg-white grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2">
         <div
@@ -38,7 +35,7 @@ const SplitImageText = (props) => {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <p className="p-5 md:p-24 text-xl md:text-2xl text-white font-semibold leading-8 text-slate-600">
+          <p className="p-5 md:p-24 text-xl md:text-2xl text-white font-semibold leading-8">
             My work as a healer is to shine the light on your journey and
             empower you to claim back your power. The unfolding miracles of
             change, hope and transformation that I see in my clients are
