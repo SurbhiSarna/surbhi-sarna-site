@@ -39,7 +39,7 @@ const HomepageAboutMe = () => {
             alt="Surbhi Sarna"
             className="rounded-full w-1/3 mx-auto"
           />
-          <p className="mt-6 text-xl md:text-2xl font-semibold leading-8 text-slate-600">
+          <p className="mt-12 text-xl md:text-2xl font-semibold leading-8 text-slate-600">
             The most daunting and yet the most precious journey is into
             someone’s heart and mind. As a healer I feel immensely privileged to
             embark on this journey with my clients where I witness the frailty,

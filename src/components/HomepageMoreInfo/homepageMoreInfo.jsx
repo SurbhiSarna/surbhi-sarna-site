@@ -13,7 +13,7 @@ const HomepageMoreInfo = () => {
         }}>
           <div className="flex flex-col md:flex-row justify-center items-center self-center max-w-7xl mx-auto text-slate-700 font-semibold leading-8">
             <p className="text-xl md:text-2xl leading-8 md:w-1/2 px-6 py-8 md:p-12">
-              I work 1:1 as well as offer group workshops and classes. My services include both online and offline.
+              I work 1:1 as well as offer group workshops and classes. My services include both online and offline mode.
             </p>
             <ul className="text-lg md:text-xl list-disc text-left md:w-1/2 px-2 py-8 md:p-20">
                 <li>Counselling and Coaching</li>
