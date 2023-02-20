@@ -54,7 +54,7 @@ const HomepageAboutMe = () => {
                 <dt className="text-base font-semibold leading-7 text-slate-900">
                   <div className="md:absolute md:top-0 md:left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-none mx-auto">
                     <feature.icon
-                      className="h-6 md:h-8 md:w-8 text-slate-700 fill-slate-700"
+                      className="h-6 md:h-8 md:w-8 text-purple-700 fill-purple-700"
                       aria-hidden="true"
                     />
                   </div>
