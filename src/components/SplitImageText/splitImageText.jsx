@@ -20,7 +20,7 @@ const SplitImageText = (props) => {
           }}
           className="flex justify-center items-center h-5/6"
         >
-          <p className="mx-auto text-slate-200 text-lg font-bold px-20">
+          <p className="mx-auto text-white text-lg font-bold px-20">
             <span>
               <img className="w-4" src={leftquote} alt="Left Quote Sign" />
             </span>

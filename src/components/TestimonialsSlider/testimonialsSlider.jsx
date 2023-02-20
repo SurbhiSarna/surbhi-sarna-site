@@ -72,7 +72,7 @@ const TestimonialsSlider = () => {
                               backgroundRepeat: 'no-repeat',
                               backgroundSize: 'cover',
                           }}>
-                          <p className="p-4 font-bold text-slate-200 text-xl md:text-3xl">{quote.quote}</p>
+                          <p className="p-4 font-bold text-white text-xl md:text-3xl">{quote.quote}</p>
                           <p className="p-2 font-semibold text-slate-300 text-lg md:text-xl">- {quote.author}</p>
                         </li>
                       </div>
