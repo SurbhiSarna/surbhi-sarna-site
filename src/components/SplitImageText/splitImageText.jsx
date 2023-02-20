@@ -9,7 +9,7 @@ const SplitImageText = (props) => {
     console.log(props)
 
     return (
-        <div className="bg-white grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2">
+        <div className="bg-green-100 grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2">
         <div
           style={{
             backgroundImage: `url(${healingImage})`,
@@ -20,7 +20,7 @@ const SplitImageText = (props) => {
           }}
           className="flex justify-center items-center h-5/6"
         >
-          <p className="mx-auto text-white text-lg font-bold px-20">
+          <p className="mx-auto text-slate-200 text-lg font-bold px-20">
             <span>
               <img className="w-4" src={leftquote} alt="Left Quote Sign" />
             </span>
@@ -38,7 +38,7 @@ const SplitImageText = (props) => {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <p className="p-5 md:p-24 text-xl md:text-2xl text-white font-semibold leading-8 text-slate-700">
+          <p className="p-5 md:p-24 text-xl md:text-2xl text-white font-semibold leading-8 text-slate-600">
             My work as a healer is to shine the light on your journey and
             empower you to claim back your power. The unfolding miracles of
             change, hope and transformation that I see in my clients are

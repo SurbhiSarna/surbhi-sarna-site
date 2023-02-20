@@ -51,10 +51,10 @@ const TestimonialsSlider = () => {
   return (
     <>
       {" "}
-      <div className="bg-slate-900 py-8 md:py-10">
+      <div className="bg-purple-800 py-8 md:py-10">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center justify-center">
-            <h2 className="my-5 text-2xl md:text-4xl font-bold text-white">
+            <h2 className="my-5 text-2xl md:text-4xl font-bold text-slate-100">
               What People Say
             </h2>
           </div>
@@ -72,8 +72,8 @@ const TestimonialsSlider = () => {
                               backgroundRepeat: 'no-repeat',
                               backgroundSize: 'cover',
                           }}>
-                          <p className="p-4 font-bold text-slate-50 text-xl md:text-3xl">{quote.quote}</p>
-                          <p className="p-2 font-semibold text-slate-200 text-lg md:text-xl">- {quote.author}</p>
+                          <p className="p-4 font-bold text-slate-200 text-xl md:text-3xl">{quote.quote}</p>
+                          <p className="p-2 font-semibold text-slate-300 text-lg md:text-xl">- {quote.author}</p>
                         </li>
                       </div>
                     )
