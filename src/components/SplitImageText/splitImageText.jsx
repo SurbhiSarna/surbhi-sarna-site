@@ -35,7 +35,7 @@ const SplitImageText = () => {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <p className="p-5 md:p-24 text-xl md:text-2xl text-white font-semibold leading-8">
+          <p className="p-5 md:p-24 text-xl md:text-2xl text-slate-900 font-semibold leading-8">
             My work as a healer is to shine the light on your journey and
             empower you to claim back your power. The unfolding miracles of
             change, hope and transformation that I see in my clients are
