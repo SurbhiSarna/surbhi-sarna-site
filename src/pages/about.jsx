@@ -1,11 +1,11 @@
 import React from 'react';
-import AboutpageMasthead from '../components/AboutpageMasthead/aboutpagemasthead';
+import AboutPageMasthead from '../components/AboutPageMasthead/aboutPageMasthead';
 
 export default function About(){
     return (
         <div>
             <h1>About</h1>
-            <AboutpageMasthead />
+            <AboutPageMasthead />
         </div>
     )
 }

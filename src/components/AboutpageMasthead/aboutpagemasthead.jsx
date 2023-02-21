@@ -13,7 +13,7 @@ const stats = [
   { name: "Paid time off", value: "Unlimited" },
 ];
 
-const AboutpageMasthead = () => {
+const AboutPageMasthead = () => {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <img
@@ -76,7 +76,7 @@ const AboutpageMasthead = () => {
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300 text-left">
             Master’s in Biochemistry from Panjab University with UGC NET qualified <br />
-            3 years research experience in Biochemistry from Saarland University, Germany
+            3 years research experience in Biochemistry from Saarland University, Germany afdsdaw
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
@@ -105,4 +105,4 @@ const AboutpageMasthead = () => {
   );
 }
 
-export default AboutpageMasthead;
+export default AboutPageMasthead;
