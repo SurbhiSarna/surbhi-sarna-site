@@ -1,12 +1,14 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import surbhiimage4 from "../../assets/images/surbhi-image4.jpg";
+import surbhiimage5 from "../../assets/images/surbhi-image5.jpg";
 
 const StoryTellingDescription = (props) => {
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-12 md:py-16 lg:overflow-visible lg:px-0">
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
-          className="absolute top-0 left-[max(50%,25rem)] h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+          className="absolute top-0 left-[max(50%,25rem)] h-[64rem] w-[128rem] -translate-x-1/2 stroke-violet-300 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
           aria-hidden="true"
         >
           <defs>
@@ -24,13 +26,13 @@ const StoryTellingDescription = (props) => {
           <svg x="50%" y="-1" className="overflow-visible fill-gray-50">
             <path
               d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-              stroke-width="0"
+              strokeWidth="0"
             />
           </svg>
           <rect
             width="100%"
             height="100%"
-            stroke-width="0"
+            strokeWidth="0"
             fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"
           />
         </svg>
@@ -49,7 +51,7 @@ const StoryTellingDescription = (props) => {
                   The very meaning of life would fly out
                 </span>
               </h2>
-              <p className="mt-3 text-xl text-semibold font-sans text-slate-700 m-4">
+              <p className="mt-3 text-xl text-semibold font-sans text-slate-700 m-2 md:m-4">
                 <span className="font-semibold">
                   Stories shape us and much of the world around us. For me
                   personally they have been the guideposts on my journey of
@@ -74,17 +76,17 @@ const StoryTellingDescription = (props) => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row justify-center items-center mt-10 p-10 mx-auto max-w-7xl">
+      <div className="flex flex-col lg:flex-row justify-center items-center md:mt-10 p-10 mx-auto max-w-7xl">
         <img
-          className="w-4/5 lg:w-2/5 rounded-xl shadow-xl ring-1 ring-gray-400/10 -rotate-6 p-1 m-12"
+          className="w-4/5 lg:w-2/5 rounded-xl shadow-xl ring-1 ring-violet-400 -rotate-6 p-2 m-12"
           src={surbhiimage4}
           alt="Surbhi Image"
         />
-        <p className="text-lg font-semibold font-sans md:text-left md:text-xl text-slate-700 ml-8 p-8 lg:w-1/2 text-center">
+        <p className="text-lg font-semibold font-sans md:text-left md:text-xl text-slate-700 md:ml-8 md:p-8 lg:w-1/2 text-center">
           I have come to visualize stories as containers of life energies.
           Engaging with a story can unleash our own life energies and bring
           about what we need. Stories tap into our subconscious mind releasing
-          memories, images and emotions. 
+          memories, images and emotions.
           <br />
           <br />
           The help that stories give is multifaceted. They can serve as guides
@@ -95,6 +97,36 @@ const StoryTellingDescription = (props) => {
           by joy and wonder.
         </p>
       </div>
+      <div className="flex flex-col-reverse lg:flex-row justify-center items-center p-2 md:p-10 mx-auto max-w-7xl">
+        <span className="text-lg font-semibold font-sans md:text-left md:text-xl text-slate-700 md:ml-8 md:p-8 lg:w-1/2 text-center">
+          I use storytelling both in my counselling practice as well in group
+          settings. I have told stories to children, teenagers and adults. I
+          have designed and conducted social emotional learning and mental
+          health programs using stories for various age groups. 
+          Be it working
+          individually with a client or telling stories to a group, stories are
+          potent healing sources that serve us according to our need.
+          <br />
+          <br />
+          If you would like to experience the power of story as an individual or
+          if you would like to bring stories to your classroom or organisation,
+          please get in touch with me. 
+          <br />
+          <br />
+        </span>
+        <img
+          className="w-4/5 lg:w-2/5 rounded-xl shadow-xl ring-1 ring-violet-400 rotate-6 p-1 m-12 flex-1"
+          src={surbhiimage5}
+          alt="Surbhi Image"
+        />
+      </div>
+      <Link to="/contact">
+          <button 
+              className="mx-auto focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold px-12 rounded-full hover:text-white hover:bg-emerald-800 border-emerald-600 text-2xl"
+          >
+            Contact Me
+          </button>
+      </Link>
     </div>
   );
 };
