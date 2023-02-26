@@ -5,8 +5,20 @@ import TestimonialsSlider from '../components/TestimonialsSlider/testimonialsSli
 import SplitImageTextwithQuotes from '../components/SplitImageTextwithQuotes/splitImageTextwithQuotes';
 import HomepageMoreInfo from '../components/HomepageMoreInfo/homepageMoreInfo';
 import healingImage from '../assets/images/healing-image.jpg';
+import mastheadImage from "../assets/images/home-masthead.jpg";
+import leftquote from "../assets/svg/lquote.svg";
+import rightquote from "../assets/svg/rquote.svg";
 
 export default function Home(){
+
+    const mastheadprops = {
+        type: "quote",
+        imageurl: mastheadImage,
+        quote: `If you have given up hope of ever being happy, cheer up. \n\n Never lose hope. Your soul, being a reflection of the ever joyous Spirit, is in essence, happiness itself.`,
+        author: "- Paramahansa Yogananda",
+        lquote: leftquote,
+        rquote: rightquote,
+    }
 
     const splittextpropswithquotes = {
         quote: "You have the power to heal your life, and you need to know that. We think so often that we are helpless, but we’re not. We always have the power of our minds. Claim and consciously use your power.",
@@ -20,7 +32,7 @@ export default function Home(){
 
     return (
         <div>
-            <Masthead />
+            <Masthead props={mastheadprops} />
             <HomepageAboutMe />
             <SplitImageTextwithQuotes props={splittextpropswithquotes}  />
             <TestimonialsSlider />
