@@ -2,7 +2,7 @@ import React from "react";
 import { HeartIcon } from "@heroicons/react/24/outline";
 import backgroundImage from "../../assets/images/background.jpg";
 
-const ServicesDescription = (props) => {
+const ServicesDescription = () => {
   const features = [
     {
       name: 1,
@@ -61,7 +61,7 @@ const ServicesDescription = (props) => {
                 className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8"
               >
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-semibold text-purple-900">
+                  <h3 className="text-2xl font-semibold text-slate-800">
                     {feature.heading}
                   </h3>
                   <p className="mb-6">{feature.description}</p>
@@ -359,7 +359,7 @@ const ServicesDescription = (props) => {
         </div>
       </div>
       <div
-        id="programs"
+        id="workshops"
         className="max-w-7xl mx-auto py-12 md:py-20 border-t-2 px-6"
       >
         <h2 className="md:text-4xl text-2xl font-bold text-slate-700 mb-8 mx-auto text-left">
