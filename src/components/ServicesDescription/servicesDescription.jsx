@@ -1,10 +1,6 @@
 import React from "react";
 import { HeartIcon } from "@heroicons/react/24/outline";
 import backgroundImage from "../../assets/images/background.jpg";
-import { Link } from "react-router-dom";
-import healingimage from "../../assets/images/healing-image2.png";
-import programsforkidsimage from "../../assets/images/programsforkids-image.jpg";
-import workshopsimage from "../../assets/images/workshops-image.png";
 
 const ServicesDescription = (props) => {
   const features = [
