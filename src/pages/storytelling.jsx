@@ -1,23 +1,26 @@
-import React from 'react';
-import Masthead from '../components/Masthead/masthead';
-import StoryTellingDescription from '../components/StoryTellingDescription/storyTellingDescription';
+import React from "react";
+import Masthead from "../components/Masthead/masthead";
+import StoryTellingDescription from "../components/StoryTellingDescription/storyTellingDescription";
 import storytellingMasthead from "../assets/images/storytelling-masthead-desktop.jpg";
-import storytellingMastheadMobile from "../assets/images/storytelling-masthead-mobile.jpg";
+import leftquote from "../assets/svg/lquote.svg";
+import rightquote from "../assets/svg/rquote.svg";
 
-export default function Storytelling(){
+export default function Storytelling() {
+  const mastheadprops = {
+    type: "quote",
+    imageurl: storytellingMasthead,
+    quote: `After nourishment, shelter and companionship, stories are the thing we need most in the world.`,
+    author: "- Philip Pullman",
+    lquote: leftquote,
+    rquote: rightquote,
+  };
 
-    const mastheadprops = {
-        type: "image",
-        imageurl: storytellingMasthead,
-        imageurlmobile: storytellingMastheadMobile,
-    }
+  // const
 
-    // const
-
-    return (
-        <div>
-            <Masthead props={mastheadprops} />
-            <StoryTellingDescription />
-        </div>
-    )
+  return (
+    <div>
+      <Masthead props={mastheadprops} />
+      <StoryTellingDescription />
+    </div>
+  );
 }
