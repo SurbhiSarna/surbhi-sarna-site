@@ -18,8 +18,8 @@ const solutions = [
     href: "/podcast",
   },
   {
-    name: "Meditation Circle",
-    href: "/meditationcircle",
+    name: "About Me",
+    href: "/about",
   },
 ];
 

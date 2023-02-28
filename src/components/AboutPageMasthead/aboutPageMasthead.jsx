@@ -24,7 +24,7 @@ const AboutPageMasthead = () => {
           <p className="mt-6 text-lg leading-8 text-gray-300 text-left">
             Master’s in Biochemistry from Panjab University; UGC NET qualified<br />< br/>
             Three years research experience in Biochemistry from Saarland University, Germany<br />< br/>
-            Master’s in Counselling Psychology from IGNOU<br />< br/>
+            Master’s in Counselling Psychology from IGNOU<br/><br/>
           </p>
         </div>
         {/* <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
