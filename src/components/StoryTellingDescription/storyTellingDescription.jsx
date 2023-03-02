@@ -1,11 +1,20 @@
 import React from "react";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 import surbhiimage4 from "../../assets/images/surbhi-image4.jpg";
 import surbhiimage5 from "../../assets/images/surbhi-image5.jpg";
+import backgroundImage from "../../assets/images/background.jpg";
 
 const StoryTellingDescription = (props) => {
   return (
-    <div className="relative isolate overflow-hidden bg-white px-6 py-12 md:py-16 lg:overflow-visible lg:px-0">
+    <div
+      className="relative isolate overflow-hidden bg-white px-6 py-12 md:py-16 lg:overflow-visible lg:px-0"
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="relative max-w-7xl mx-auto">
         <div className="relative z-10">
           <div className="max-w-3xl mx-auto lg:max-w-none">
@@ -71,15 +80,14 @@ const StoryTellingDescription = (props) => {
           I use storytelling both in my counselling practice as well in group
           settings. I have told stories to children, teenagers and adults. I
           have designed and conducted social emotional learning and mental
-          health programs using stories for various age groups. 
-          Be it working
+          health programs using stories for various age groups. Be it working
           individually with a client or telling stories to a group, stories are
           potent healing sources that serve us according to our need.
           <br />
           <br />
           If you would like to experience the power of story as an individual or
           if you would like to bring stories to your classroom or organisation,
-          please get in touch with me. 
+          please get in touch with me.
           <br />
           <br />
         </span>
@@ -90,11 +98,9 @@ const StoryTellingDescription = (props) => {
         />
       </div>
       <Link to="/contact">
-          <button 
-              className="mx-auto focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold px-12 rounded-full hover:text-white hover:bg-emerald-800 border-emerald-600 text-2xl"
-          >
-            Contact Me
-          </button>
+        <button className="mx-auto focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold px-12 rounded-full hover:text-white hover:bg-emerald-800 border-emerald-600 text-2xl">
+          Contact Me
+        </button>
       </Link>
     </div>
   );

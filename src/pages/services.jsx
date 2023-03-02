@@ -4,7 +4,8 @@ import ServicesDescription from '../components/ServicesDescription/servicesDescr
 export default function Services(){
     return (
         <div>
-            <ServicesDescription />
+            {/* <ServicesDescription /> */}
+            <h1 className='text-black p-12'>Content Coming Soon</h1>
         </div>
     )
 }
