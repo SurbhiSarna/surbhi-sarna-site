@@ -18,10 +18,10 @@ const HomepageMoreInfo = () => {
             <ul className="text-lg md:text-xl list-disc text-left md:w-1/2 px-2 py-8 md:p-20">
                 <li>Counselling and Coaching</li>
                 <li>Pranic Healing</li>
+                <li>Parenting Guidance</li>
+                <li>Programs for Children and Teens</li>
                 <li>Workshops</li>
-                <li>Social Emotional Learning</li>
                 <li>Storytelling</li>
-                <li>Meditation Circle</li>
               </ul>
           </div>
           <Link to="/contact">
