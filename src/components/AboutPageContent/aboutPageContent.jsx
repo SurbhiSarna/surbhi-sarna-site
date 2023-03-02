@@ -1,19 +1,18 @@
 import React from "react";
-import ReadMoreReact from "read-more-react";
 import surbhiimage2 from "../../assets/images/surbhi-image2.jpg";
 import surbhiimage3 from "../../assets/images/surbhi-image3.jpg";
+import backgroundImage from "../../assets/images/background.jpg";
+import testimonialBg from "../../assets/images/testimonial-bg.png";
 
 const AboutPageContent = () => {
   return (
-    <div className="relative isolate overflow-hidden bg-white px-6 pt-6 sm:pt-10 lg:overflow-visible lg:px-0">
-      <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+    <div className="relative isolate overflow-hidden bg-white pt-6 sm:pt-10 lg:overflow-visible">
+      <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10 p-4">
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-          <div className="lg:pr-4">
-            <div className="lg:max-w-lg">
-              <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                About Me
-              </h1>
-            </div>
+          <div className="lg:p-4">
+            <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center mx-auto">
+              About Me
+            </h1>
           </div>
         </div>
         <div className="md:-mt-12 md:-ml-12 md:p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
@@ -25,7 +24,7 @@ const AboutPageContent = () => {
         </div>
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
-            <div className="max-w-xl text-base leading-7 text-slate-700 lg:max-w-xl">
+            <div className="max-w-xl text-base leading-7 text-slate-700 lg:max-w-xl p-4">
               <p>
                 Often times one hears storytellers say that they did not chose
                 the story, the story chose them. In life too there are some
@@ -98,19 +97,36 @@ const AboutPageContent = () => {
           </div>
         </div>
       </div>
-      <div className="bg-purple-800">
-        <div className="flex flex-col lg:flex-row justify-center items-center mt-10 p-10 mx-auto max-w-7xl">
+      <div
+        style={{
+          backgroundImage: `url(${testimonialBg})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "auto 100%",
+          backgroundPosition: "center",
+        }}
+        className="bg-violet-800"
+      >
+        <p className="max-w-2xl mx-auto text-center p-32 font-semibold text-white text-xl md:text-2xl">
+          Stories showed me the way. At each step they guided me and led me to a
+          very fulfilling inner journey of discovering, adding and recreating
+          myself.
+        </p>
+      </div>
+      <div
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="flex flex-col lg:flex-row justify-center items-center mt-2 p-4 mx-auto max-w-7xl">
           <img
-            className="lg:w-1/2 rounded-xl shadow-xl ring-1 ring-gray-400/10"
+            className="lg:w-1/2 rounded-xl shadow-xl ring-1 ring-gray-400/10 -rotate-6 w-4/6"
             src={surbhiimage3}
             alt="Surbhi Image"
           />
-          <p className="text-lg font-semibold font-sans md:text-left md:text-xl text-white p-8 lg:w-1/2 text-center">
-            <strong>
-              Stories showed me the way. At each step they guided me and led me
-              to a very fulfilling inner journey of discovering, adding and
-              recreating myself.
-            </strong>
+          <p className="text-lg font-semibold font-sans md:text-left md:text-xl text-slate-700 md:ml-8 p-8 lg:w-1/2 text-center">
             <br />
             <br />
             My first step of self-discovery started by writing a children’s
@@ -118,12 +134,8 @@ const AboutPageContent = () => {
             about children, about mental health, about emotions and about life
             through the stories I told. This carried me further into the field
             of psychology.
-          </p>
-        </div>
-      </div>
-      <div className="bg-slate-900">
-        <div className="flex flex-col lg:flex-row justify-center items-center p-10 mx-auto max-w-7xl">
-          <p className="text-xl font-semibold font-sans text-white p-8 text-center">
+            <br />
+            <br />
             However when I studied psychology I could see the gaps which
             psychology could not adequately address. As a storyteller I was
             acutely aware of the energetic exchange that takes place between
