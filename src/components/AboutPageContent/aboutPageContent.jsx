@@ -106,7 +106,7 @@ const AboutPageContent = () => {
             src={surbhiimage3}
             alt="Surbhi Image"
           />
-          <p className="text-lg font-semibold font-sans md:text-left md:text-xl text-slate-700 md:ml-8 p-8 lg:w-1/2 text-center">
+          <p className="text-md font-semibold font-sans md:text-left md:text-lg text-slate-700 md:ml-8 p-8 lg:w-1/2 text-center">
             My first step of self discovery began when I wrote a children’s
             story. That led me into becoming a storyteller. As I started telling
             stories, I began to learn about children, mental health, emotions
