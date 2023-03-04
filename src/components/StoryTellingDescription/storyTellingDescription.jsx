@@ -85,11 +85,6 @@ const StoryTellingDescription = (props) => {
           potent healing sources that serve us according to our need.
           <br />
           <br />
-          If you would like to experience the power of story as an individual or
-          if you would like to bring stories to your classroom or organisation,
-          please get in touch with me.
-          <br />
-          <br />
         </span>
         <img
           className="w-4/5 lg:w-2/5 rounded-xl shadow-xl ring-1 ring-violet-400 rotate-6 p-1 m-12 flex-1"
@@ -97,11 +92,18 @@ const StoryTellingDescription = (props) => {
           alt="Surbhi Image"
         />
       </div>
+      <div className="ring-1 ring-violet-400 mx-auto bg-violet-800">
+        <p className="text-white pt-20 pb-10 text-lg md:text-2xl font-semibold max-w-xl mx-auto">
+          If you would like to experience the power of story as an individual or
+          if you would like to bring stories to your classroom or organisation,
+          please get in touch with me.
+        </p>
       <Link to="/contact">
-        <button className="mx-auto focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold px-12 rounded-full hover:text-white hover:bg-emerald-800 border-emerald-600 text-2xl">
+        <button className="mx-auto focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold px-12 rounded-full hover:text-white hover:bg-emerald-800 border-emerald-600 text-2xl m-4 mb-10">
           Contact Me
         </button>
       </Link>
+      </div>
     </div>
   );
 };
