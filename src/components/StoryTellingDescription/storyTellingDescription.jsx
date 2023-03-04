@@ -7,7 +7,7 @@ import backgroundImage from "../../assets/images/background.jpg";
 const StoryTellingDescription = (props) => {
   return (
     <div
-      className="relative isolate overflow-hidden bg-white px-6 py-12 md:py-16 lg:overflow-visible lg:px-0"
+      className="relative isolate overflow-hidden bg-white py-12 md:py-16 lg:overflow-visible"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundRepeat: "no-repeat",
@@ -19,17 +19,17 @@ const StoryTellingDescription = (props) => {
         <div className="relative z-10">
           <div className="max-w-3xl mx-auto lg:max-w-none">
             <div>
-              <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl pb-10">
+              <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl pb-10 px-4">
                 <span className="block">
                   Can you imagine a world devoid of stories?
                 </span>
               </h2>
-              <h2 className="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl pb-10">
+              <h2 className="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl pb-10 px-4">
                 <span className="block">
                   The very meaning of life would fly out
                 </span>
               </h2>
-              <p className="mt-3 text-xl text-semibold font-sans text-slate-700 m-2 md:m-4">
+              <p className="mt-3 text-xl text-semibold font-sans text-slate-700 m-2 md:m-4 px-4">
                 <span className="font-semibold">
                   Stories shape us and much of the world around us. For me
                   personally they have been the guideposts on my journey of
@@ -75,8 +75,8 @@ const StoryTellingDescription = (props) => {
           by joy and wonder.
         </p>
       </div>
-      <div className="flex flex-col-reverse lg:flex-row justify-center items-center p-2 md:p-10 mx-auto max-w-7xl">
-        <span className="text-lg font-semibold font-sans md:text-left md:text-xl text-slate-700 md:ml-8 md:p-8 lg:w-1/2 text-center">
+      <div className="flex flex-col-reverse lg:flex-row justify-center items-center p-10 mx-auto max-w-7xl">
+        <span className="text-lg font-semibold font-sans md:text-left md:text-xl text-slate-700 md:ml-8 lg:w-1/2 text-center">
           I use storytelling both in my counselling practice as well in group
           settings. I have told stories to children, teenagers and adults. I
           have designed and conducted social emotional learning and mental
@@ -93,16 +93,16 @@ const StoryTellingDescription = (props) => {
         />
       </div>
       <div className="ring-1 ring-violet-400 mx-auto bg-violet-800">
-        <p className="text-white pt-20 pb-10 text-lg md:text-2xl font-semibold max-w-xl mx-auto">
+        <p className="text-white pt-20 pb-10 text-lg md:text-2xl font-semibold max-w-xl mx-auto p-10">
           If you would like to experience the power of story as an individual or
           if you would like to bring stories to your classroom or organisation,
           please get in touch with me.
         </p>
-      <Link to="/contact">
-        <button className="mx-auto focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold px-12 rounded-full hover:text-white hover:bg-emerald-800 border-emerald-600 text-2xl m-4 mb-10">
-          Contact Me
-        </button>
-      </Link>
+        <Link to="/contact">
+          <button className="mx-auto focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold px-12 rounded-full hover:text-white hover:bg-emerald-800 border-emerald-600 text-2xl m-4 mb-10">
+            Contact Me
+          </button>
+        </Link>
       </div>
     </div>
   );
