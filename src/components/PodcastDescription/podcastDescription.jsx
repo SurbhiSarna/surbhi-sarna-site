@@ -15,7 +15,7 @@ const PodcastDescription = () => {
           src={podcastCover}
           alt="Surbhi Image"
         />
-        <div className="w-4/5 lg:w-2/5 p-4 md:pl-8">
+        <div className="p-2 md:pl-8">
           <h2 className="text-2xl md:text-3xl font-bold text-center md:text-left text-slate-700">
             Story Zen by Surbhi Sarna
             <br />
