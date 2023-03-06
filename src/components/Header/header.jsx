@@ -3,8 +3,48 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Dropdown from "../Dropdown/dropdown";
 
 const solutions = [
+  {
+    name: "Storytelling",
+    href: "/storytelling",
+  },
+  {
+    name: "Podcast",
+    href: "/podcast",
+  }
+];
+
+const aboutme = {
+  name: "About Me",
+  items: [
+    {
+      key: "1",
+      name: "About Me",
+      href: "/about",
+    },
+    {
+      key: "2",
+      name: "My Bio",
+      href: "/bio",
+    },
+]};
+
+// const services = [
+//   {
+//     key: "1",
+//     name: "Services",
+//     href: "/services",
+//   },
+//   {
+//     key: "2",
+//     name: "My Bio",
+//     href: "/bio",
+//   },
+// ];
+
+const solutionsmobile = [
   {
     name: "Services",
     href: "/services",
@@ -18,7 +58,7 @@ const solutions = [
     href: "/podcast",
   },
   {
-    name: "About Me",
+    name: "My Bio",
     href: "/about",
   },
 ];
@@ -39,16 +79,18 @@ const Header = () => {
               </p>
             </a>
           </div>
-          <div className="hidden space-x-10 md:flex">
+          <div className="hidden md:flex">
             {solutions.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="font-fraunces text-base font-bold text-slate-700 border-transparent border-b-2 hover:text-slate-900 hover:border-slate-800"
+                className="mt-2 mr-10 pb-2 font-fraunces text-base font-bold text-slate-700 border-transparent border-b-2 hover:text-slate-900 hover:border-purple-700"
               >
                 {item.name}
               </a>
             ))}
+            <Dropdown props={aboutme} />
+            {/* <Dropdown props={services} /> */}
           </div>
           <div className="-my-2 -mr-2 md:hidden">
             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-violet-500">
@@ -58,7 +100,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-
       <Transition
         as={Fragment}
         enter="duration-200 ease-out"
@@ -70,17 +111,12 @@ const Header = () => {
       >
         <Popover.Panel
           focus
-          className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"
+          className="absolute inset-x-0 top-0 origin-top-right transform m-2 transition md:hidden z-10 border-2 border-violet-400 rounded-lg"
         >
           <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
             <div className="px-5 pt-5 pb-6">
               <div className="flex items-center justify-between">
                 <div>
-                  {/* <img
-                    className="h-8 w-auto"
-                    src="#"
-                    alt="Your Company"
-                  /> */}
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -91,7 +127,7 @@ const Header = () => {
               </div>
               <div className="mt-6">
                 <nav className="grid gap-y-8">
-                  {solutions.map((item) => (
+                  {solutionsmobile.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
@@ -127,6 +163,6 @@ const Header = () => {
       </Transition>
     </Popover>
   );
-}
+};
 
 export default Header;
