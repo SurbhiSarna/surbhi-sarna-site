@@ -34,7 +34,7 @@ const Dropdown = (props) => {
                     <div>
                       <a
                         href={item.href}
-                        className="font-semibold text-gray-900"
+                        className="font-semibold text-gray-900 hover:text-purple-900"
                       >
                         {item.name}
                         <span className="absolute inset-0" />
