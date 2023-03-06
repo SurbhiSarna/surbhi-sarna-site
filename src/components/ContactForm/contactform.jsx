@@ -32,16 +32,16 @@ class ContactForm extends React.Component {
             </p>
           </div>
           <form
-            action="https://gmail.us18.list-manage.com/subscribe/post"
+            action="https://gmail.us21.list-manage.com/subscribe/post"
             method="POST"
             className="w-4/5 mx-auto"
             noValidate
           >
-            <input type="hidden" name="u" value="9a3ee21e2db7dfacb07809929" />
-            <input type="hidden" name="id" value="f4142fc5bc" />
+            <input type="hidden" name="u" value="510869b384c56972f91a4ce78" />
+            <input type="hidden" name="id" value="9d7cb753ea" />
             <div className="flex flex-col justify-center mx-auto max-w-xl px-5">
               <label
-                htmlFor="MERGE0"
+                htmlFor="EMAIL"
                 className="text-white font-bold py-2 text-left"
               >
                 Email
@@ -50,7 +50,7 @@ class ContactForm extends React.Component {
                 type="email"
                 className="bg-white text-slate-900 autofill:shadow-none autofill:bg-white autofill:text-emerald-600 focus:outline-none focus:shadow-outline border  rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
                 name="EMAIL"
-                id="MERGE0"
+                id="EMAIL"
                 value={this.state.emailValue}
                 onChange={(e) => {
                   this.setState({ emailValue: e.target.value });
@@ -59,7 +59,7 @@ class ContactForm extends React.Component {
                 autoCorrect="off"
               />
               <label
-                htmlFor="MERGE1"
+                htmlFor="FNAME"
                 className="text-white font-bold py-2 text-left"
               >
                 First name
@@ -68,14 +68,14 @@ class ContactForm extends React.Component {
                 type="text"
                 className="bg-white text-slate-900  focus:bg-white focus:outline-none focus:shadow-outline border rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
                 name="FNAME"
-                id="MERGE1"
+                id="FNAME"
                 value={this.state.fNameValue}
                 onChange={(e) => {
                   this.setState({ fNameValue: e.target.value });
                 }}
               />
               <label
-                htmlFor="MERGE2"
+                htmlFor="LNAME"
                 className="text-white font-bold py-2 text-left"
               >
                 Last name
@@ -84,14 +84,14 @@ class ContactForm extends React.Component {
                 type="text"
                 className="bg-white text-slate-900 focus:outline-none focus:shadow-outline border rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
                 name="LNAME"
-                id="MERGE2"
+                id="LNAME"
                 value={this.state.lNameValue}
                 onChange={(e) => {
                   this.setState({ lNameValue: e.target.value });
                 }}
               />
               <label
-                htmlFor="MERGE3"
+                htmlFor="MMERGE3"
                 className="text-white font-bold py-2 text-left"
               >
                 Description
@@ -100,7 +100,7 @@ class ContactForm extends React.Component {
                 type="textarea"
                 className="bg-white text-slate-900  focus:outline-none focus:shadow-outline border  rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
                 name="DESC"
-                id="MERGE3"
+                id="MMERGE3"
                 value={this.state.descValue}
                 onChange={(e) => {
                   this.setState({ descValue: e.target.value });
