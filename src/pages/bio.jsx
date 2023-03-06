@@ -1,10 +1,10 @@
 import React from 'react';
-import AboutPageContent from '../components/AboutPageContent/aboutPageContent';
+import BioPageContent from '../components/BioPageContent/bioPageContent';
 
 export default function Bio(){
     return (
         <div>
-            <AboutPageContent />
+            <BioPageContent />
         </div>
     )
 }
