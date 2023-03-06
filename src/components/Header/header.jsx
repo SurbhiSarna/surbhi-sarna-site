@@ -59,7 +59,7 @@ const solutionsmobile = [
   },
   {
     name: "My Bio",
-    href: "/about",
+    href: "/bio",
   },
 ];
 
