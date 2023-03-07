@@ -27,7 +27,7 @@ select:-webkit-autofill:focus {
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: rgb(255 255 255);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

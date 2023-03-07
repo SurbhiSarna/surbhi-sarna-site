@@ -1,9 +1,10 @@
 import React from 'react';
+import PodcastDescription from '../components/PodcastDescription/podcastDescription';
 
 export default function Podcast(){
     return (
         <div>
-            <h1>Podcast</h1>
+            <PodcastDescription />
         </div>
     )
 }
