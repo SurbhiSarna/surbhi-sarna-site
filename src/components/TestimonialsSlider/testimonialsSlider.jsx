@@ -51,7 +51,7 @@ const TestimonialsSlider = () => {
   return (
     <>
       {" "}
-      <div className="bg-purple-900 py-8 md:py-10">
+      <div className="bg-violet-800 py-8 md:py-10">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center justify-center">
             <h2 className="my-5 text-2xl md:text-4xl font-bold text-slate-100">

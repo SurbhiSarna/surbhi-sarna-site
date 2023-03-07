@@ -52,6 +52,9 @@ const certifications = [
   {
     name: "Pranic Healing; all 5 levels",
   },
+  {
+    name: "Metaphor Therapy",
+  }
 ];
 
 const BioPageContent = () => {
@@ -111,10 +114,11 @@ const BioPageContent = () => {
               <span className="text-purple-800">Rituparna Ghosh</span> of Your
               Story Bag and {" "}
               <span className="text-purple-800">Akshay Gandhi</span> of Still
-              Space Theatre,{" "}
+              Space Theatre.{" "} I have also trained with{" "}
               <span className="text-purple-800">Eric Miller</span>,{" "}
               <span className="text-purple-800">Susan Perrow</span>{" "}
               and <span className="text-purple-800">Lani Peterson</span>{" "} for using stories in therapy, healing and counselling.
+              I am also a member of <span className="text-purple-800">FEAST</span> (Federation of Asian Storytellers).
             </p>
           </div>
         </div>

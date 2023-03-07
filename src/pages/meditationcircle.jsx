@@ -9,8 +9,8 @@ import rightquote from "../assets/svg/rquote.svg";
 export default function MeditationCircle() {
   const splittext =
     "Interested in meditation? Join our weekly online meditation circle where we practice guided meditation based on the teachings of Paramahansa Yogananda and scientific healing affirmations for healing of body, mind and soul.";
-  const buttontext = "Click to join WhatsApp Group";
-  const buttonlink = "https://chat.whatsapp.com/LeKIdGcHdS6LTWqfC0r9tX";
+  const buttontext = "Click to join WhatsApp Community";
+  const buttonlink = "https://chat.whatsapp.com/GkfSlCwf5UEGcSknAzrHv5";
 
   const mastheadprops = {
     type: "quote",

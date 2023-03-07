@@ -7,6 +7,11 @@ import listenapple from "../../assets/images/listenapple.jpg";
 import listenspotify from "../../assets/images/listenspotify.png";
 
 const PodcastDescription = () => {
+
+  const alertFunction = () => {
+    alert("Coming Soon!");
+  };
+
   return (
     <div className="relative isolate overflow-hidden bg-white py-8 md:py-10 lg:overflow-visible">
       <div className="flex flex-col lg:flex-row justify-center items-center md:mt-4 p-10 mx-auto max-w-7xl">
@@ -32,25 +37,25 @@ const PodcastDescription = () => {
               Fantasy. Dreams. Secrets.
             </span>
           </p>
-          <div class="flex flex-row mx-auto md:mx-0 justify-center md:justify-start items-center">
-            <a href="#" target={"_blank"}>
+          <div className="flex flex-row mx-auto md:mx-0 justify-center md:justify-start items-center">
+            <a onClick={alertFunction} className="cursor-pointer">
               <img
                 className="w-12 mt-8 mr-4 p-2 hover:ring-2 hover:rounded-xl hover:ring-purple-700"
                 src={applepodcast}
                 alt="Apple Podcast"
               />
             </a>
-            <a href="#" target={"_blank"}>
-              <img 
-                className="w-12 mt-8 p-2 hover:ring-2 hover:rounded-xl hover:ring-purple-700" 
-                src={spotify} 
-                alt="Spotify" 
+            <a onClick={alertFunction} className="cursor-pointer">
+              <img
+                className="w-12 mt-8 p-2 hover:ring-2 hover:rounded-xl hover:ring-purple-700"
+                src={spotify}
+                alt="Spotify"
               />
             </a>
           </div>
         </div>
       </div>
-      <div className="ring-1 ring-violet-400 mx-auto bg-violet-800">
+      <div className="mx-auto bg-violet-800">
         <p className="text-white pt-20 pb-10 text-lg md:text-2xl font-semibold max-w-6xl mx-auto p-10">
           Can an experience combine all of these? Story Zen is a storytelling
           podcast that brings you stories that help you experience the fullness
@@ -60,6 +65,10 @@ const PodcastDescription = () => {
           life energies and help us connect to our inner self.
           <br />
           <br />
+        </p>
+      </div>
+      <div className="mx-auto bg-white">
+        <p className="text-slate-700 pt-20 pb-10 text-lg md:text-2xl font-semibold max-w-6xl mx-auto p-10">
           Nature has two fundamental processes: discarding what’s not needed and
           bringing to life new things that are needed. Stories work on us in a
           similar way. They serve to heal us by bringing to surface thoughts,
@@ -67,24 +76,24 @@ const PodcastDescription = () => {
           thoughts, emotions, images and words.
           <br />
           <br />
+        </p>
+      </div>
+      <div className="mx-auto bg-violet-800">
+        <p className="text-white p-10 text-lg md:text-2xl font-semibold max-w-6xl mx-auto">
           Listen to Story Zen and experience the magic of stories on your heart,
           mind and soul.
         </p>
-        <div class="flex flex-row mx-auto justify-center items-center pb-10 flex-wrap">
-            <a href="#" target={"_blank"}>
-              <img
-                className="w-52 mt-8 mx-4 rounded-xl"
-                src={listenapple}
-                alt="Apple Podcast"
-              />
-            </a>
-            <a href="#" target={"_blank"}>
-              <img 
-                className="w-52 mt-8" 
-                src={listenspotify} 
-                alt="Spotify" 
-              />
-            </a>
+        <div className="flex flex-row mx-auto justify-center items-center pb-10 flex-wrap">
+          <a onClick={alertFunction} className="cursor-pointer">
+            <img
+              className="w-52 mx-4 rounded-xl"
+              src={listenapple}
+              alt="Apple Podcast"
+            />
+          </a>
+          <a onClick={alertFunction} className="cursor-pointer">
+            <img className="w-52 " src={listenspotify} alt="Spotify" />
+          </a>
         </div>
       </div>
     </div>
