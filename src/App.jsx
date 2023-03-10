@@ -4,7 +4,7 @@ import Home from './pages/home'
 import About from './pages/about'
 import Contact from './pages/contact'
 import Podcast from './pages/podcast'
-import Services from './pages/services'
+import Services from './pages/services/index'
 import Storytelling from './pages/storytelling'
 import MeditationCircle from './pages/meditationcircle'
 
