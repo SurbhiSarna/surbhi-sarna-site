@@ -1,7 +1,7 @@
 import React from "react";
 import backgroundImage from "../../assets/images/parentingguidance.jpg";
 
-export default function Services() {
+const Parentingguidance = () => {
   return (
     <div>
       <div
@@ -64,3 +64,5 @@ export default function Services() {
     </div>
   );
 }
+
+export default Parentingguidance;

@@ -51,8 +51,8 @@ const services = {
     },
     {
       key: "4",
-      name: "Parental Guidance",
-      href: "/services/parentalguidance",
+      name: "Parenting Guidance",
+      href: "/services/parentingguidance",
     },
     {
       key: "5",
