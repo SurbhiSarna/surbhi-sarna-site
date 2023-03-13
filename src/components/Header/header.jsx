@@ -36,13 +36,28 @@ const services = {
   items: [
     {
       key: "1",
-      name: "All Services",
-      href: "/services",
+      name: "Pranic Healing",
+      href: "/services/pranic",
     },
     {
       key: "2",
-      name: "My Bio",
-      href: "/bio",
+      name: "Children Programs",
+      href: "/services/childrenprograms",
+    },
+    {
+      key: "3",
+      name: "Counselling",
+      href: "/services/counselling",
+    },
+    {
+      key: "4",
+      name: "Parental Guidance",
+      href: "/services/parentalguidance",
+    },
+    {
+      key: "5",
+      name: "Workshops",
+      href: "/services/workshops",
     },
 ]};
 
