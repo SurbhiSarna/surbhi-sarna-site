@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from 'react';
 import Masthead from "../components/Masthead/masthead";
 import StoryTellingDescription from "../components/StoryTellingDescription/storyTellingDescription";
 import storytellingMasthead from "../assets/images/storytelling-masthead-desktop.jpg";
@@ -6,6 +6,11 @@ import leftquote from "../assets/svg/lquote.svg";
 import rightquote from "../assets/svg/rquote.svg";
 
 export default function Storytelling() {
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+  });
+
   const mastheadprops = {
     type: "quote",
     imageurl: storytellingMasthead,
@@ -14,8 +19,6 @@ export default function Storytelling() {
     lquote: leftquote,
     rquote: rightquote,
   };
-
-  // const
 
   return (
     <div>

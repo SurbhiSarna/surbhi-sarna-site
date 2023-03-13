@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useLayoutEffect } from 'react';
 import { Link } from "react-router-dom";
 import backgroundImage from "../../assets/images/parentingguidance.jpg";
 
 const Parentingguidance = () => {
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+  });
+
   return (
     <div>
       <div
