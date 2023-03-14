@@ -126,8 +126,7 @@ const Pranic = () => {
                   anxiety etc.
                 </li>
                 <li>
-                  Pranic healing can be applied for all age groups including
-                  children
+                  For all age groups including children
                 </li>
               </ul>
               <span className="italic">
