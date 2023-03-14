@@ -115,27 +115,27 @@ const Counselling = () => {
                 <strong>What to expect from a counselling session</strong>
               </li>
               <li className="text-lg md:text-xl text-slate-600 mb-4">
-                <img src={check} alt="check" className="inline-block mr-2 w-6" />
+              🟣&nbsp;&nbsp;
                 A safe and non-judgemental space to talk about your problems
               </li>
               <li className="text-lg md:text-xl text-slate-600 mb-4">
-                <img src={check} alt="check" className="inline-block mr-2 w-6" />
+              🟣&nbsp;&nbsp;
                 Empathy and unconditional positive regard
               </li>
               <li className="text-lg md:text-xl text-slate-600 mb-4">
-                <img src={check} alt="check" className="inline-block mr-2 w-6" />
+              🟣&nbsp;&nbsp;
                 Complete Confidentiality and Privacy
               </li>
               <li className="text-lg md:text-xl text-slate-600 mb-4">
-                <img src={check} alt="check" className="inline-block mr-2 w-6" />
+              🟣&nbsp;&nbsp;
                 Acceptance of your situation and your feelings
               </li>
               <li className="text-lg md:text-xl text-slate-600 mb-4">
-                <img src={check} alt="check" className="inline-block mr-2 w-6" />
+              🟣&nbsp;&nbsp;
                 You would not be given advice or answers
               </li>
               <li className="text-lg md:text-xl text-slate-600 mb-4">
-                <img src={check} alt="check" className="inline-block mr-2 w-6" />
+              🟣&nbsp;&nbsp;
                 You would not be imposed on or told what to believe or do
               </li>
             </ul>
