@@ -19,7 +19,7 @@ const Parentingguidance = () => {
         }}
       >
         <div className="flex flex-col justify-center items-center h-full mx-auto">
-          <h1 className="text-2xl text-white font-bold px-5 md:px-10 md:text-4xl max-w-7xl uppercase">
+          <h1 className="text-3xl text-white font-bold px-5 md:px-10 md:text-6xl max-w-7xl uppercase">
             Parenting guidance
           </h1>
         </div>
