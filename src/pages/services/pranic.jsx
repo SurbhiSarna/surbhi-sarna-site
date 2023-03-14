@@ -32,7 +32,7 @@ const Pranic = () => {
       text: "Workshops",
       href: "/services/workshops",
     },
-  ];   
+  ];
 
   const quote =
     "Disease is generally considered a result of external material causes. Few people realize that it comes through the inaction of the Life Force within. Medicine, massage, and electricity merely help to stimulate the cells in such a way that the Life Energy is induced to return and resume its work of maintenance and repair. All methods of healing are really indirect ways of rousing the life energy, which is the true and direct healer of all diseases.";
@@ -90,24 +90,24 @@ const Pranic = () => {
               by an ocean of cosmic life-giving energy. This is the basis of the
               science of healing. Our physical body has a corresponding
               electromagnetic field also called as aura or energy body. The
-              physical and energy bodies are interconnected.
+              physical and energy bodies are interconnected. The energy body
+              contains energy centers called chakras which are responsible for
+              many physical and psychological functions. Our energy body is
+              constantly absorbing this life-giving prana and expelling used up
+              prana. Thoughts and feelings also have energy and accumulation of
+              negative thoughts and emotions affects the functioning of the
+              chakras which manifests as disease or psychological problems.
+              Physical, mental, or emotional problems can arise due to improper
+              flow of prana in the energy centers (chakras). Disease manifests
+              when there are blockages in this flow of energy.
               <br />
               <br />
-              The energy body contains energy centers called chakras which are
-              responsible for many physical and psychological functions. Our
-              energy body is constantly absorbing this life-giving prana and
-              expelling used up prana. Disease occurs when there are blockages
-              in this flow of energy. Pranic healing is a non-touch healing
-              therapy which works on the energy body. Any physical, mental, or
-              emotional problems arise due to improper flow of prana in the
-              energy centers (chakras).
-              <br />
-              <br />
-              Pranic healing is a wonderful tool to balance energies and
-              accelerate the client’s healing process. Thoughts and feelings
-              also have energy and accumulation of negative thoughts and
-              emotions affects the functioning of the chakras which manifests as
-              disease or psychological problems.
+              Pranic healing is a non-touch healing therapy which works on the
+              energy body. It is a wonderful tool to balance energies, harmonize
+              emotions and accelerate the client’s healing process. It
+              stimulates and enhances the natural healing ability present in
+              everyone. Pranic healing can be applied to achieve mental,
+              emotional and physical well-being.
               <br />
               <br />
               <strong>
