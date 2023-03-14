@@ -15,13 +15,13 @@ const HomepageMoreInfo = () => {
             <p className="text-xl md:text-2xl leading-8 md:w-1/2 px-6 py-8 md:p-12">
               I work 1:1 as well as offer group workshops and classes. My services include both online and offline mode.
             </p>
-            <ul className="text-lg md:text-xl list-disc text-left md:w-1/2 px-2 py-8 md:p-20">
-                <li><Link to="/services/counselling" className='font-semibold text-violet-800 hover:text-violet-900 hover:underline pb-2'>Counselling and Coaching</Link></li>
-                <li><Link to="/services/pranic" className='font-semibold text-violet-800 hover:text-violet-900 hover:underline'>Pranic Healing</Link></li>
-                <li><Link to="/services/parentingguidance" className='font-semibold text-violet-800 hover:text-violet-900 hover:underline'>Parenting Guidance</Link></li>
-                <li><Link to="/services/childrenprograms" className='font-semibold text-violet-800 hover:text-violet-900 hover:underline'>Programs for Children and Teens</Link></li>
-                <li><Link to="/services/workshops" className='font-semibold text-violet-800 hover:text-violet-900 hover:underline'>Workshops</Link></li>
-                <li><Link to="/storytelling" className='font-semibold text-violet-800 hover:text-violet-900 hover:underline'>Storytelling</Link></li>
+            <ul className="text-lg md:text-xl text-left md:w-1/2 px-2 py-8 md:p-20">
+                <li className='my-2'>🟣&nbsp;&nbsp;<Link to="/services/counselling" className='font-semibold text-violet-800 hover:text-violet-900 hover:underline pb-2'>Counselling and Coaching</Link></li>
+                <li className='my-2'>🟣&nbsp;&nbsp;<Link to="/services/pranic" className='font-semibold text-violet-800 hover:text-violet-900 hover:underline'>Pranic Healing</Link></li>
+                <li className='my-2'>🟣&nbsp;&nbsp;<Link to="/services/parentingguidance" className='font-semibold text-violet-800 hover:text-violet-900 hover:underline'>Parenting Guidance</Link></li>
+                <li className='my-2'>🟣&nbsp;&nbsp;<Link to="/services/childrenprograms" className='font-semibold text-violet-800 hover:text-violet-900 hover:underline'>Programs for Children and Teens</Link></li>
+                <li className='my-2'>🟣&nbsp;&nbsp;<Link to="/services/workshops" className='font-semibold text-violet-800 hover:text-violet-900 hover:underline'>Workshops</Link></li>
+                <li className='my-2'>🟣&nbsp;&nbsp;<Link to="/storytelling" className='font-semibold text-violet-800 hover:text-violet-900 hover:underline'>Storytelling</Link></li>
               </ul>
           </div>
           <Link to="/contact">

@@ -55,17 +55,11 @@ const Parentingguidance = () => {
         <div className="flex flex-col md:flex-row md:space-x-8">
           <div className="text-left">
             <p className="text-lg md:text-xl text-slate-600 mb-4">
-              <ul className="list-disc list-inside text-lg md:text-xl text-slate-600 font-semibold">
-                <li>Are you parent seeking help for your child/teenager?</li>
-                <li>Do you want to develop a deeper bond with your child?</li>
-                <li>
-                  Do you feel that there is a communication gap between you and
-                  your child?
-                </li>
-                <li>
-                  Are you seeking answers as a parent but don’t know where to
-                  turn?
-                </li>
+              <ul className="list-inside text-lg md:text-xl text-slate-600 font-semibold">
+                <li className='my-2'>🟣&nbsp;&nbsp; Are you a parent seeking help for your child/teenager?</li>
+                <li className='my-2'>🟣&nbsp;&nbsp; Do you want to develop a deeper bond with your child?</li>
+                <li className='my-2'>🟣&nbsp;&nbsp; Do you feel that there is a communication gap between you and your child?</li>
+                <li className='my-2'>🟣&nbsp;&nbsp; Are you seeking answers as a parent but don’t know where to turn?</li>
               </ul>
               <br />
               <br />

@@ -76,12 +76,12 @@ const Counselling = () => {
               <br />
               <strong>If you are someone who is seeking to:-</strong>
             </p>
-            <ul className="list-disc list-inside text-lg md:text-xl text-slate-600 mb-4 font-semibold">
-              <li>Enhance their Potential</li>
-              <li>Get more out of Life</li>
-              <li>Find Meaning and Purpose</li>
-              <li>Spiritual Connection</li>
-              <li>Live a more Fulfilled Life</li>
+            <ul className="text-lg md:text-xl text-slate-600 mb-4 font-semibold marker:text-violet-700">
+              <li className='my-2'>🟣&nbsp;&nbsp; Enhance their Potential</li>
+              <li className='my-2'>🟣&nbsp;&nbsp; Get more out of Life</li>
+              <li className='my-2'>🟣&nbsp;&nbsp; Find Meaning and Purpose</li>
+              <li className='my-2'>🟣&nbsp;&nbsp; Spiritual Connection</li>
+              <li className='my-2'>🟣&nbsp;&nbsp; Live a more Fulfilled Life</li>
             </ul>
             <p className="text-lg md:text-xl text-slate-600 mb-4">
               <strong>Then I will be happy to be of service to you.</strong>

@@ -3,6 +3,7 @@ import backgroundImage from "../../assets/images/pranic.jpg";
 import ReactMarkdown from "react-markdown";
 import leftquote from "../../assets/svg/lquoteblack.svg";
 import rightquote from "../../assets/svg/rquoteblack.svg";
+import purplecircle from "../../assets/images/purplecircle.png";
 import ServicesRedirectButtons from "../../components/ServicesRedirectButtons/servicesRedirectButton";
 import ContactRedirectButton from "../../components/ContactRedirectButton/contactRedirectButton";
 
@@ -116,16 +117,18 @@ const Pranic = () => {
               </strong>
               <br />
               <br />I offer Pranic Healing for the following:-
-              <ul className="list-disc list-inside text-lg md:text-xl text-slate-600 mb-4">
-                <li>
+              <ul className="list-inside text-lg md:text-xl text-slate-600 mb-4">
+                <li className="text-lg md:text-xl text-slate-600 my-4">
+                  <img src={purplecircle} alt="check" className="inline-block mr-2 w-6" />
                   A wide variety of physical health problems such as migraine,
                   back pain, arthritis etc.
                 </li>
-                <li>
-                  Mental and emotional health such as stress, depression,
-                  anxiety etc.
+                <li className="text-lg md:text-xl text-slate-600 my-4">
+                  <img src={purplecircle} alt="check" className="inline-block mr-2 w-6" />
+                  Mental and emotional health such as stress, depression, anxiety etc.
                 </li>
-                <li>
+                <li className="text-lg md:text-xl text-slate-600 my-4">
+                  <img src={purplecircle} alt="check" className="inline-block mr-2 w-6" />
                   For all age groups including children
                 </li>
               </ul>
@@ -138,26 +141,31 @@ const Pranic = () => {
               <strong>Why Pranic Healing?</strong>
               <br />
               <br />
-              <ul className="list-disc list-inside text-lg md:text-xl text-slate-600">
-                <li>
+              <ul className="list-inside text-lg md:text-xl text-slate-600">
+                <li className="text-lg md:text-xl text-slate-600 my-4">
+                  <img src={purplecircle} alt="check" className="inline-block mr-2 w-6" />
                   Pranic healing is a boon since it directly works with the life
                   force. It is a great aid for people suffering from chronic
-                  diseases who have not found relief from medicine
+                  diseases who have not found relief from medicine  
                 </li>
-                <li>
+                <li className="text-lg md:text-xl text-slate-600 my-4">
+                  <img src={purplecircle} alt="check" className="inline-block mr-2 w-6" />
                   It can be combined with any other treatment modality including
                   allopathy and enhances the efficacy of the treatment taken
                 </li>
-                <li>
+                <li className="text-lg md:text-xl text-slate-600 my-4">
+                  <img src={purplecircle} alt="check" className="inline-block mr-2 w-6" />
                   It can also be used to treat mental and emotional problems.
                   When combined with traditional psychotherapy the number of
                   therapy sessions are greatly reduced
                 </li>
-                <li>
+                <li className="text-lg md:text-xl text-slate-600 my-4">
+                  <img src={purplecircle} alt="check" className="inline-block mr-2 w-6" />
                   It is safe for all age groups and can be applied even from a
                   distance
                 </li>
-                <li>
+                <li className="text-lg md:text-xl text-slate-600 my-4">
+                  <img src={purplecircle} alt="check" className="inline-block mr-2 w-6" />
                   Most people report positive beneficial changes in their life
                   such as feeling more happier and peaceful and feel empowered
                   to make changes

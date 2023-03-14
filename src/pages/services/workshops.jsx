@@ -59,13 +59,13 @@ const Workshops = () => {
               learning and storytelling. Some of the workshops that I have
               offered include
             </p>
-            <ul className="list-inside text-lg md:text-xl text-slate-600 list-disc font-semibold">
-              <li>Storytelling as a parenting tool</li>
-              <li>Art of storytelling for teachers</li>
-              <li>Storytelling in the digital age</li>
-              <li>Helping children study better</li>
-              <li>Therapy through stories</li>
-              <li>Mindfulness for children</li>
+            <ul className="list-inside text-lg md:text-xl text-slate-600 font-semibold">
+              <li className='my-2'>🟣&nbsp;&nbsp;Storytelling as a parenting tool</li>
+              <li className='my-2'>🟣&nbsp;&nbsp;Art of storytelling for teachers</li>
+              <li className='my-2'>🟣&nbsp;&nbsp;Storytelling in the digital age</li>
+              <li className='my-2'>🟣&nbsp;&nbsp;Helping children study better</li>
+              <li className='my-2'>🟣&nbsp;&nbsp;Therapy through stories</li>
+              <li className='my-2'>🟣&nbsp;&nbsp;Mindfulness for children</li>
             </ul>
           </div>
         </div>
