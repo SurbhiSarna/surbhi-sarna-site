@@ -61,11 +61,14 @@ const Childrenprograms = () => {
               imperative that we also focus on the mental, emotional and
               spiritual needs of children.
               <br />
-              <br />I offer several programs and workshops for children focused
+              <br />
+              I offer several programs and workshops for children focused
               on social emotional skills such as building confidence,
               understanding and managing emotions, being mindful, connecting
               with nature, practicing kindness and gratitude and building better
               habits. I use storytelling extensively in each program.
+              <br />
+              <br />
             </p>
             <ul className="list-inside text-lg md:text-xl text-slate-600 mb-4 list-none">
               <li className="py-2">

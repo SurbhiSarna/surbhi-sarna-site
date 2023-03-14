@@ -55,7 +55,7 @@ const Parentingguidance = () => {
         <div className="flex flex-col md:flex-row md:space-x-8">
           <div className="text-left">
             <p className="text-lg md:text-xl text-slate-600 mb-4">
-              <ul className="list-disc list-inside text-lg md:text-xl text-slate-600">
+              <ul className="list-disc list-inside text-lg md:text-xl text-slate-600 font-semibold">
                 <li>Are you parent seeking help for your child/teenager?</li>
                 <li>Do you want to develop a deeper bond with your child?</li>
                 <li>
@@ -67,6 +67,8 @@ const Parentingguidance = () => {
                   turn?
                 </li>
               </ul>
+              <br />
+              <br />
               As a certified parenting expert I offer counselling and coaching
               exclusively for parents to help them meet their parenting goals.
               Most often behavioural and emotional problems faced by children
