@@ -1,12 +1,17 @@
-import React, { useLayoutEffect } from 'react';
+import React, { useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
 import backgroundImage from "../../assets/images/pranic.jpg";
+import ReactMarkdown from "react-markdown";
+import leftquote from "../../assets/svg/lquoteblack.svg";
+import rightquote from "../../assets/svg/rquoteblack.svg";
 
 const Pranic = () => {
-
   useLayoutEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   });
+
+  const quote = "Disease is generally considered a result of external material causes. Few people realize that it comes through the inaction of the Life Force within. Medicine, massage, and electricity merely help to stimulate the cells in such a way that the Life Energy is induced to return and resume its work of maintenance and repair. All methods of healing are really indirect ways of rousing the life energy, which is the true and direct healer of all diseases."
+  const author = "- Master Choa Kok Sui"
 
   return (
     <div>
@@ -28,6 +33,28 @@ const Pranic = () => {
         id="pranic"
         className="max-w-7xl mx-auto py-12 md:py-20 border-t-2 px-6"
       >
+        <div className="flex flex-col justify-center items-center h-full">
+          <h1 className="text-lg text-slate-700 font-bold p-5 md:p-10 md:text-xl max-w-7xl">
+            <span>
+              <img
+                className="w-2 md:w-4 my-4"
+                src={leftquote}
+                alt="Left Quote Sign"
+              />
+            </span>
+            <ReactMarkdown children={quote} />
+            <span className="flex justify-end">
+              <img
+                className="w-2 md:w-4 mt-4 right-0"
+                src={rightquote}
+                alt="Left Quote Sign"
+              />
+            </span>
+          </h1>
+          <p className="text-slate-700 text-lg pb-8 px-4 md:px-10 md:pb-16 mb-8 font-semibold">
+            {author}
+          </p>
+        </div>
         <div className="flex flex-col md:flex-row md:space-x-8">
           <div className="text-left">
             <p className="text-lg md:text-xl text-slate-600 mb-4">
