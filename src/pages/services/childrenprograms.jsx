@@ -72,35 +72,34 @@ const Childrenprograms = () => {
             </p>
             <ul className="list-inside text-lg text-slate-600 mb-4 list-none">
               <li className="py-2">
-                <span className="font-semibold text-xl">🟣&nbsp;&nbsp;Confidence and emotions:</span>{" "}
+                <span className="font-semibold text-xl uppercase">🟣&nbsp;&nbsp;Confidence and emotions:</span>{" "}
                 <br />
                 8 session program to develop emotional intelligence and boost
                 confidence and learn life skills; for 5-10 year olds
               </li>
               <li className="py-2">
-                <span className="font-semibold text-xl">🟣&nbsp;&nbsp;Habits &amp; happiness:</span> 
+                <span className="font-semibold text-xl uppercase">🟣&nbsp;&nbsp;Habits and happiness:</span> 
                 <br />
                 8 session program on developing age appropriate good mental and
-                emotional habits; for 5-10 years old
+                emotional habits; for 5-10 year olds
               </li>
               <li className="py-2">
-                <span className="font-semibold text-xl">🟣&nbsp;&nbsp;Connect with roots:</span> 
+                <span className="font-semibold text-xl uppercase">🟣&nbsp;&nbsp;Connect with roots:</span> 
                 <br />
                 8 session program to connect with our cultural and spiritual
                 roots, understand our heritage and traditions; for 8-12 year
                 olds
               </li>
               <li className="py-2">
-                <span className="font-semibold text-xl">🟣&nbsp;&nbsp;Grow your happiness:</span> 
+                <span className="font-semibold text-xl uppercase">🟣&nbsp;&nbsp;Grow your happiness:</span> 
                 <br />
-                
                 5 session program based on the science of happiness to develop
                 resilience, deal with stress and enhance positive emotions; for
                 teens
               </li>
               <li className="py-2">
-                <span className="font-semibold text-xl">
-                🟣&nbsp;&nbsp;Create &amp; heal with stories:
+                <span className="font-semibold text-xl uppercase">
+                🟣&nbsp;&nbsp;Create and heal with stories:
                 </span>{" "}
                 <br />
                 5 session program on how to write a healing story and to devise
