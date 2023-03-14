@@ -1,14 +1,38 @@
 import React, { useLayoutEffect } from "react";
-import { Link } from "react-router-dom";
 import backgroundImage from "../../assets/images/pranic.jpg";
 import ReactMarkdown from "react-markdown";
 import leftquote from "../../assets/svg/lquoteblack.svg";
 import rightquote from "../../assets/svg/rquoteblack.svg";
+import ServicesRedirectButtons from "../../components/ServicesRedirectButtons/servicesRedirectButton";
+import ContactRedirectButton from "../../components/ContactRedirectButton/contactRedirectButton";
 
 const Pranic = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   });
+
+  const links = [
+    {
+      key: "1",
+      text: "Counselling",
+      href: "/services/counselling",
+    },
+    {
+      key: "2",
+      text: "Children Programs",
+      href: "/services/childrenprograms",
+    },
+    {
+      key: "3",
+      text: "Parenting Guidance",
+      href: "/services/parentingguidance",
+    },
+    {
+      key: "4",
+      text: "Workshops",
+      href: "/services/workshops",
+    },
+  ];   
 
   const quote =
     "Disease is generally considered a result of external material causes. Few people realize that it comes through the inaction of the Life Force within. Medicine, massage, and electricity merely help to stimulate the cells in such a way that the Life Energy is induced to return and resume its work of maintenance and repair. All methods of healing are really indirect ways of rousing the life energy, which is the true and direct healer of all diseases.";
@@ -144,42 +168,8 @@ const Pranic = () => {
           </div>
         </div>
       </div>
-      <p className="text-slate-700 md:my-8 my-4 text-lg md:text-2xl font-semibold max-w-xl mx-auto px-10">
-        Other Services I Offer
-      </p>
-      <div className="mx-auto flex flex-col md:flex-row justify-center items-center max-w-7xl mb-4 md:mb-8">
-          <Link to="/contact" className="m-2 md:m-4">
-            <button className="mx-auto w-60 focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold px-4 rounded-full hover:text-white hover:bg-emerald-800 border-emerald-600 text-lg">
-              Children Programs
-            </button>
-          </Link>
-          <Link to="/contact" className="m-2 md:m-4">
-            <button className="mx-auto w-60 focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold px-4 rounded-full hover:text-white hover:bg-emerald-800 border-emerald-600 text-lg">
-              Parenting Guidance
-            </button>
-          </Link>
-          <Link to="/contact" className="m-2 md:m-4">
-            <button className="mx-auto w-60 focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold px-4 rounded-full hover:text-white hover:bg-emerald-800 border-emerald-600 text-lg">
-              Workshops
-            </button>
-          </Link>
-          <Link to="/contact" className="m-2 md:m-4">
-            <button className="mx-auto w-60 focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold px-4 rounded-full hover:text-white hover:bg-emerald-800 border-emerald-600 text-lg">
-              Counselling
-            </button>
-          </Link>
-      </div>
-      <div className="ring-1 ring-violet-400 mx-auto bg-violet-800">
-        <p className="text-white pt-20 pb-10 text-lg md:text-2xl font-semibold max-w-xl mx-auto p-10">
-          If you would like to know more about my services or would like to work
-          with me, please get in touch.
-        </p>
-        <Link to="/contact">
-          <button className="mx-auto focus:outline-none focus:shadow-outline bg-emerald-600 text-white font-bold px-12 rounded-full hover:text-white hover:bg-emerald-800 border-emerald-600 text-2xl m-4 mb-10">
-            Contact Me
-          </button>
-        </Link>
-      </div>
+      <ServicesRedirectButtons props={links} />
+      <ContactRedirectButton />
     </div>
   );
 };
