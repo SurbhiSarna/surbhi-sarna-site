@@ -2,6 +2,7 @@ import React, { useLayoutEffect } from 'react';
 import ServicesRedirectButtons from "../../components/ServicesRedirectButtons/servicesRedirectButton";
 import ContactRedirectButton from "../../components/ContactRedirectButton/contactRedirectButton";
 import backgroundImage from "../../assets/images/councellingcoaching.jpg";
+import check from "../../assets/images/check.png";
 
 const Counselling = () => {
 
@@ -109,7 +110,36 @@ const Counselling = () => {
               change in their life. My role is that of a facilitator, guide and
               coach.
             </p>
-            <table className="table-auto mt-6">
+            <ul>
+              <li className="text-lg md:text-xl text-slate-700 mt-6 mb-4">
+                <strong>What to expect from a counselling session</strong>
+              </li>
+              <li className="text-lg md:text-xl text-slate-600 mb-4">
+                <img src={check} alt="check" className="inline-block mr-2 w-6" />
+                A safe and non-judgemental space to talk about your problems
+              </li>
+              <li className="text-lg md:text-xl text-slate-600 mb-4">
+                <img src={check} alt="check" className="inline-block mr-2 w-6" />
+                Empathy and unconditional positive regard
+              </li>
+              <li className="text-lg md:text-xl text-slate-600 mb-4">
+                <img src={check} alt="check" className="inline-block mr-2 w-6" />
+                Complete Confidentiality and Privacy
+              </li>
+              <li className="text-lg md:text-xl text-slate-600 mb-4">
+                <img src={check} alt="check" className="inline-block mr-2 w-6" />
+                Acceptance of your situation and your feelings
+              </li>
+              <li className="text-lg md:text-xl text-slate-600 mb-4">
+                <img src={check} alt="check" className="inline-block mr-2 w-6" />
+                You would not be given advice or answers
+              </li>
+              <li className="text-lg md:text-xl text-slate-600 mb-4">
+                <img src={check} alt="check" className="inline-block mr-2 w-6" />
+                You would not be imposed on or told what to believe or do
+              </li>
+            </ul>
+            {/* <table className="table-auto mt-6">
               <thead>
                 <tr className="text-lg text-left font-base text-slate-700">
                   <th className="px-4 py-2">What you can expect from me</th>
@@ -140,7 +170,7 @@ const Counselling = () => {
                   <td className="border px-4 py-2">Judging the client</td>
                 </tr>
               </tbody>
-            </table>
+            </table> */}
           </div>
         </div>
       </div>

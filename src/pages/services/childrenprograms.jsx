@@ -73,6 +73,7 @@ const Childrenprograms = () => {
             <ul className="list-inside text-lg md:text-xl text-slate-600 mb-4 list-none">
               <li className="py-2">
                 <span className="font-semibold">Confidence and emotions:</span>{" "}
+                <br />
                 8 session program to develop emotional intelligence and boost
                 confidence and learn life skills; for 5-10 years old
               </li>
