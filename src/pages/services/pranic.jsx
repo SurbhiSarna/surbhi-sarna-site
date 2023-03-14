@@ -11,7 +11,7 @@ const Pranic = () => {
   });
 
   const quote = "Disease is generally considered a result of external material causes. Few people realize that it comes through the inaction of the Life Force within. Medicine, massage, and electricity merely help to stimulate the cells in such a way that the Life Energy is induced to return and resume its work of maintenance and repair. All methods of healing are really indirect ways of rousing the life energy, which is the true and direct healer of all diseases."
-  const author = "- Master Choa Kok Sui"
+  const author = "- Paramahansa Yogananda"
 
   return (
     <div>
