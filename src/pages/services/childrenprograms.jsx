@@ -70,34 +70,39 @@ const Childrenprograms = () => {
               <br />
               <br />
             </p>
-            <ul className="list-inside text-lg md:text-xl text-slate-600 mb-4 list-none">
+            <ul className="list-inside text-lg text-slate-600 mb-4 list-none">
               <li className="py-2">
-                <span className="font-semibold">Confidence and emotions:</span>{" "}
+                <span className="font-semibold text-xl">🟣&nbsp;&nbsp;Confidence and emotions:</span>{" "}
                 <br />
                 8 session program to develop emotional intelligence and boost
-                confidence and learn life skills; for 5-10 years old
+                confidence and learn life skills; for 5-10 year olds
               </li>
               <li className="py-2">
-                <span className="font-semibold">Habits &amp; happiness:</span> 8
-                session program on developing age appropriate good mental and
+                <span className="font-semibold text-xl">🟣&nbsp;&nbsp;Habits &amp; happiness:</span> 
+                <br />
+                8 session program on developing age appropriate good mental and
                 emotional habits; for 5-10 years old
               </li>
               <li className="py-2">
-                <span className="font-semibold">Connect with roots:</span> 8
-                session program to connect with our cultural and spiritual
+                <span className="font-semibold text-xl">🟣&nbsp;&nbsp;Connect with roots:</span> 
+                <br />
+                8 session program to connect with our cultural and spiritual
                 roots, understand our heritage and traditions; for 8-12 year
                 olds
               </li>
               <li className="py-2">
-                <span className="font-semibold">Grow your happiness:</span> 5
-                session program based on the science of happiness to develop
+                <span className="font-semibold text-xl">🟣&nbsp;&nbsp;Grow your happiness:</span> 
+                <br />
+                
+                5 session program based on the science of happiness to develop
                 resilience, deal with stress and enhance positive emotions; for
                 teens
               </li>
               <li className="py-2">
-                <span className="font-semibold">
-                  Create &amp; heal with stories:
+                <span className="font-semibold text-xl">
+                🟣&nbsp;&nbsp;Create &amp; heal with stories:
                 </span>{" "}
+                <br />
                 5 session program on how to write a healing story and to devise
                 creative ways of dealing with problems; for teens
               </li>
