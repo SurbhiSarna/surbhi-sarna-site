@@ -127,10 +127,10 @@ class ContactForm extends React.Component {
                 India
               </span>
             </p>
-            <a href="mailto:surbhistoryzen@gmail.com" className="text-lg text-center pt-6 text-emerald-700 p-2 border-solid border-white border-2 bg-white w-64 h-28 m-4 rounded-xl hover:bg-emerald-700 hover:text-white">
+            <a href="mailto:surbhi@surbhisarna.in" className="text-lg text-center pt-6 text-emerald-700 p-2 border-solid border-white border-2 bg-white w-64 h-28 m-4 rounded-xl hover:bg-emerald-700 hover:text-white">
               <EnvelopeIcon className="h-6 w-6 inline-block mb-2" />
               <br />
-                surbhistoryzen@gmail.com
+                surbhi@surbhisarna.in
             </a>
             <a href="tel: +918908016222" className="text-lg text-center pt-6 text-emerald-700 p-2 border-solid border-white border-2 bg-white w-64 h-28 m-4 rounded-xl hover:bg-emerald-700 hover:text-white">
               <PhoneIcon className="h-6 w-6 inline-block mb-2" />
