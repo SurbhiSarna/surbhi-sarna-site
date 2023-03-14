@@ -73,9 +73,9 @@ const Counselling = () => {
               and transformation.
               <br />
               <br />
-              If you are someone who is seeking to:-
+              <strong>If you are someone who is seeking to:-</strong>
             </p>
-            <ul className="list-disc list-inside text-lg md:text-xl text-slate-600 mb-4">
+            <ul className="list-disc list-inside text-lg md:text-xl text-slate-600 mb-4 font-semibold">
               <li>Enhance their Potential</li>
               <li>Get more out of Life</li>
               <li>Find Meaning and Purpose</li>
@@ -83,7 +83,7 @@ const Counselling = () => {
               <li>Live a more Fulfilled Life</li>
             </ul>
             <p className="text-lg md:text-xl text-slate-600 mb-4">
-              Then I will be happy to be of service to you.
+              <strong>Then I will be happy to be of service to you.</strong>
               <br />
               <br />
               <strong>My approach</strong>
