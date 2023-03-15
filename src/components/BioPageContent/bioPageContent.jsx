@@ -54,7 +54,10 @@ const certifications = [
   },
   {
     name: "Metaphor Therapy",
-  }
+  },
+  {
+    name: "Bach Flower Remedies",
+  },
 ];
 
 const BioPageContent = () => {

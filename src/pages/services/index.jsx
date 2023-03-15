@@ -1,15 +1,15 @@
 import React, { useLayoutEffect } from 'react';
-import AboutPageContent from '../components/AboutPageContent/aboutPageContent';
+import ServicesDescription from '../../components/ServicesDescription/servicesDescription';
 
-export default function About(){
-    
+export default function Services(){
+
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
 
     return (
         <div>
-            <AboutPageContent />
+            <ServicesDescription />
         </div>
     )
 }

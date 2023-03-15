@@ -31,18 +31,35 @@ const aboutme = {
     },
 ]};
 
-// const services = [
-//   {
-//     key: "1",
-//     name: "Services",
-//     href: "/services",
-//   },
-//   {
-//     key: "2",
-//     name: "My Bio",
-//     href: "/bio",
-//   },
-// ];
+const services = {
+  name: "Services",
+  items: [
+    {
+      key: "1",
+      name: "Pranic Healing",
+      href: "/services/pranic",
+    },
+    {
+      key: "2",
+      name: "Children Programs",
+      href: "/services/childrenprograms",
+    },
+    {
+      key: "3",
+      name: "Counselling",
+      href: "/services/counselling",
+    },
+    {
+      key: "4",
+      name: "Parenting Guidance",
+      href: "/services/parentingguidance",
+    },
+    {
+      key: "5",
+      name: "Workshops",
+      href: "/services/workshops",
+    },
+]};
 
 const solutionsmobile = [
   {
@@ -80,6 +97,10 @@ const Header = () => {
             </a>
           </div>
           <div className="hidden md:flex">
+            <Dropdown props={aboutme} />
+            <div className="mr-10" />
+            <Dropdown props={services} />
+            <div className="mr-10" />
             {solutions.map((item) => (
               <a
                 key={item.name}
@@ -89,8 +110,6 @@ const Header = () => {
                 {item.name}
               </a>
             ))}
-            <Dropdown props={aboutme} />
-            {/* <Dropdown props={services} /> */}
           </div>
           <div className="-my-2 -mr-2 md:hidden">
             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-violet-500">

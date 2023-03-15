@@ -55,7 +55,7 @@ const PodcastDescription = () => {
           </div>
         </div>
       </div>
-      <div className="mx-auto bg-violet-800">
+      <div className="mx-auto bg-emerald-700">
         <p className="text-white pt-20 pb-10 text-lg md:text-2xl font-semibold max-w-6xl mx-auto p-10">
           Can an experience combine all of these? Story Zen is a storytelling
           podcast that brings you stories that help you experience the fullness
@@ -78,7 +78,7 @@ const PodcastDescription = () => {
           <br />
         </p>
       </div>
-      <div className="mx-auto bg-violet-800">
+      <div className="mx-auto bg-emerald-700">
         <p className="text-white p-10 text-lg md:text-2xl font-semibold max-w-6xl mx-auto">
           Listen to Story Zen and experience the magic of stories on your heart,
           mind and soul.

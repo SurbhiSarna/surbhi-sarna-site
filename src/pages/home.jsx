@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import Masthead from '../components/Masthead/masthead';
 import HomepageAboutMe from '../components/HomepageAboutMe/homepageAboutMe';
 import TestimonialsSlider from '../components/TestimonialsSlider/testimonialsSlider';
@@ -10,6 +10,10 @@ import leftquote from "../assets/svg/lquote.svg";
 import rightquote from "../assets/svg/rquote.svg";
 
 export default function Home(){
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
 
     const mastheadprops = {
         type: "quote",
